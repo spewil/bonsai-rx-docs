@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/merge",
+  "id": "core/merge",
+  "isDocsHomePage": false,
+  "title": "Merge",
+  "description": "The Merge operator allows you to combine the output of multiple observables so that you can treat them as if they were the same observable. This is done by merging all the notifications from all the input sequences into a single sequence, as described in the marble diagram below.",
+  "source": "@site/docs/core/merge.md",
+  "slug": "/core/merge",
+  "permalink": "/docs/core/merge",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/core/merge.md",
+  "version": "current"
+}

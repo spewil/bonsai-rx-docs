@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/_take",
+  "id": "core/_take",
+  "isDocsHomePage": false,
+  "title": "Take",
+  "description": "The Take operator allows you to truncate an observable sequence by specifying a maximum number of notifications that should be allowed as the output. As soon as the requested number of notifications is received, Take will terminate successfully.",
+  "source": "@site/docs/core/_take.md",
+  "slug": "/core/_take",
+  "permalink": "/docs/core/_take",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/_take.md",
+  "version": "current"
+}

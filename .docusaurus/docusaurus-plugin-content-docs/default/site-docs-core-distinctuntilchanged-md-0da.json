@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/_distinctuntilchanged",
+  "id": "core/_distinctuntilchanged",
+  "isDocsHomePage": false,
+  "title": "DistinctUntilChanged",
+  "description": "The DistinctUntilChanged operator allows you to filter consecutive duplicate items from an observable sequence. This means that the resulting sequence will only emit items when there are changes in the input. As long as the input sequence keeps repeating the same value, the result will be silent.",
+  "source": "@site/docs/core/_distinctuntilchanged.md",
+  "slug": "/core/_distinctuntilchanged",
+  "permalink": "/docs/core/_distinctuntilchanged",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/_distinctuntilchanged.md",
+  "version": "current"
+}

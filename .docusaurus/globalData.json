@@ -1,0 +1,46 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting_started",
+          "docs": [
+            {
+              "id": "core/zip",
+              "path": "/docs/core/zip",
+              "sidebar": "docs"
+            },
+            {
+              "id": "fundamentals/daqmx_integration",
+              "path": "/docs/fundamentals/daqmx_integration"
+            },
+            {
+              "id": "fundamentals/data_writers",
+              "path": "/docs/fundamentals/data_writers"
+            },
+            {
+              "id": "fundamentals/video_acquisition",
+              "path": "/docs/fundamentals/video_acquisition",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting_started",
+              "path": "/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "meta/style_guide",
+              "path": "/docs/meta/style_guide",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

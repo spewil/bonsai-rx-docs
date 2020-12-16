@@ -1,0 +1,12 @@
+{
+  "unversionedId": "fundamentals/data_writers",
+  "id": "fundamentals/data_writers",
+  "isDocsHomePage": false,
+  "title": "Writing Data to Files",
+  "description": "VideoWriter \\sink",
+  "source": "@site/docs/fundamentals/_data_writers.md",
+  "slug": "/fundamentals/data_writers",
+  "permalink": "/docs/fundamentals/data_writers",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/_data_writers.md",
+  "version": "current"
+}

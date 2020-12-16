@@ -1,0 +1,12 @@
+{
+  "unversionedId": "getting_started/_06-operators",
+  "id": "getting_started/_06-operators",
+  "isDocsHomePage": false,
+  "title": "Operators",
+  "description": "{% include toc icon=\"columns\" title=\"Operators\" %}",
+  "source": "@site/docs/getting_started/_06-operators.md",
+  "slug": "/getting_started/_06-operators",
+  "permalink": "/docs/getting_started/_06-operators",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting_started/_06-operators.md",
+  "version": "current"
+}

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/skip",
+  "id": "core/skip",
+  "isDocsHomePage": false,
+  "title": "Skip",
+  "description": "The Skip operator allows you to discard a specified number of notifications from the beginning of an observable sequence. After the specified number of notifications is received, Skip will forward all remaining notifications.",
+  "source": "@site/docs/core/skip.md",
+  "slug": "/core/skip",
+  "permalink": "/docs/core/skip",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/core/skip.md",
+  "version": "current"
+}

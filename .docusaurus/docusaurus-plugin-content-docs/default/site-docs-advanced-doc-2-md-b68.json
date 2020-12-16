@@ -1,0 +1,11 @@
+{
+  "unversionedId": "advanced/doc2",
+  "id": "advanced/doc2",
+  "isDocsHomePage": false,
+  "title": "empty doc for linking purposes",
+  "source": "@site/docs/advanced/_doc2.md",
+  "slug": "/advanced/doc2",
+  "permalink": "/docs/advanced/doc2",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/advanced/_doc2.md",
+  "version": "current"
+}

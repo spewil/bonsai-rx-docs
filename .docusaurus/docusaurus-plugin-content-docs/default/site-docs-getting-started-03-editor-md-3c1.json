@@ -1,0 +1,12 @@
+{
+  "unversionedId": "getting_started/03-editor",
+  "id": "getting_started/03-editor",
+  "isDocsHomePage": false,
+  "title": "Workflow Editor",
+  "description": "{% include toc icon=\"columns\" title=\"Editor\" %}",
+  "source": "@site/docs/getting_started/03-editor.md",
+  "slug": "/getting_started/03-editor",
+  "permalink": "/docs/getting_started/03-editor",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting_started/03-editor.md",
+  "version": "current"
+}

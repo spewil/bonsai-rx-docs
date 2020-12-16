@@ -1,0 +1,12 @@
+{
+  "unversionedId": "getting_started/10-create-package",
+  "id": "getting_started/10-create-package",
+  "isDocsHomePage": false,
+  "title": "Creating a Package",
+  "description": "The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the Visual Studio{:target=\"_blank\"} development environment.",
+  "source": "@site/docs/getting_started/10-create-package.md",
+  "slug": "/getting_started/10-create-package",
+  "permalink": "/docs/getting_started/10-create-package",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting_started/10-create-package.md",
+  "version": "current"
+}

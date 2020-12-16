@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/_skip",
+  "id": "core/_skip",
+  "isDocsHomePage": false,
+  "title": "Skip",
+  "description": "The Skip operator allows you to discard a specified number of notifications from the beginning of an observable sequence. After the specified number of notifications is received, Skip will forward all remaining notifications.",
+  "source": "@site/docs/core/_skip.md",
+  "slug": "/core/_skip",
+  "permalink": "/docs/core/_skip",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/_skip.md",
+  "version": "current"
+}

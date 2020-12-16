@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/take",
+  "id": "core/take",
+  "isDocsHomePage": false,
+  "title": "Take",
+  "description": "The Take operator allows you to truncate an observable sequence by specifying a maximum number of notifications that should be allowed as the output. As soon as the requested number of notifications is received, Take will terminate successfully.",
+  "source": "@site/docs/core/take.md",
+  "slug": "/core/take",
+  "permalink": "/docs/core/take",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/core/take.md",
+  "version": "current"
+}

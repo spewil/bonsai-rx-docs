@@ -1,8 +1,10 @@
 module.exports = {
  docs: {
  	"Getting Started" : ["getting_started"],
-	"Fundamentals" : ["video_acquisition"],
-	"Advanced Topics" : ["doc2"],
-	"Contributing" : ["style_guide"],
+ 	"Bonsai Core" : ["core/zip"],
+	"Workflow Fundamentals" : ["fundamentals/video_acquisition"],
+	// "Advanced Topics" : ["advanced/doc2"],
+	"How to Contribute" : ["meta/style_guide"],
   }
 };
+

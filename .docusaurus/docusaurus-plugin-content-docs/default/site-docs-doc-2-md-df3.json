@@ -1,0 +1,20 @@
+{
+  "unversionedId": "doc2",
+  "id": "doc2",
+  "isDocsHomePage": false,
+  "title": "empty doc for linking purposes",
+  "source": "@site/docs/doc2.md",
+  "slug": "/doc2",
+  "permalink": "/docs/doc2",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Acquiring Video",
+    "permalink": "/docs/video_acquisition"
+  },
+  "next": {
+    "title": "Style Guide",
+    "permalink": "/docs/style_guide"
+  }
+}

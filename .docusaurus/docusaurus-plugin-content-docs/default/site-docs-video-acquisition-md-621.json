@@ -1,0 +1,21 @@
+{
+  "unversionedId": "video_acquisition",
+  "id": "video_acquisition",
+  "isDocsHomePage": false,
+  "title": "Acquiring Video",
+  "description": "Basler cameras",
+  "source": "@site/docs/video_acquisition.md",
+  "slug": "/video_acquisition",
+  "permalink": "/docs/video_acquisition",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/video_acquisition.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome to Bonsai Docs!",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "empty doc for linking purposes",
+    "permalink": "/docs/doc2"
+  }
+}

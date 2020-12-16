@@ -1,0 +1,17 @@
+{
+  "unversionedId": "style_guide",
+  "id": "style_guide",
+  "isDocsHomePage": false,
+  "title": "Style Guide",
+  "description": "You can write content using GitHub-flavored Markdown syntax.",
+  "source": "@site/docs/Markdown_Reference.md",
+  "slug": "/style_guide",
+  "permalink": "/docs/style_guide",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Markdown_Reference.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "empty doc for linking purposes",
+    "permalink": "/docs/doc2"
+  }
+}

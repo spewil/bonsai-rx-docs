@@ -1,13 +1,13 @@
 module.exports = {
   title: 'bonsai-rx documentation',
   tagline: 'node problem',
-  url: 'https://bonsai-rx-docs.com',
+  url: 'https://spewil.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'neurogears', // Usually your GitHub org/user name.
-  projectName: 'bonsai-rx-docs', // Usually your repo name.
+  organizationName: 'spewil', // Usually your GitHub org/user name.
+  projectName: 'spewil.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'bonsai-rx documentation',
@@ -37,13 +37,9 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Home',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            }
           ],
         },
         {
@@ -72,7 +68,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/spewil/bonsai-rx-docs',
             },
           ],
         },
@@ -88,13 +84,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/spewil/bonsai-rx-docs/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

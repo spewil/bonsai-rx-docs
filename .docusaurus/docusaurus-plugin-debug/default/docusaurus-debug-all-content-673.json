@@ -1,0 +1,192 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
+          "docsDirPath": "/Users/spencerw/Documents/bonsai-rx-docs/docs",
+          "mainDocId": "getting_started",
+          "sidebars": {
+            "docs": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting_started"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Bonsai Core",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "core/zip"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Workflow Fundamentals",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/video_acquisition"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "How to Contribute",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "meta/style_guide"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/core/zip": "docs",
+            "/docs/fundamentals/video_acquisition": "docs",
+            "/docs/": "docs",
+            "/docs/meta/style_guide": "docs"
+          },
+          "docs": [
+            {
+              "unversionedId": "core/zip",
+              "id": "core/zip",
+              "isDocsHomePage": false,
+              "title": "Zip",
+              "description": "Category: Combining",
+              "source": "@site/docs/core/zip.md",
+              "slug": "/core/zip",
+              "permalink": "/docs/core/zip",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/zip.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Welcome to Bonsai Docs!",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Acquiring Video",
+                "permalink": "/docs/fundamentals/video_acquisition"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/daqmx_integration",
+              "id": "fundamentals/daqmx_integration",
+              "isDocsHomePage": false,
+              "title": "Interfacing with NI-DAQ Devices",
+              "description": "Requires:",
+              "source": "@site/docs/fundamentals/nidaq_integration.md",
+              "slug": "/fundamentals/daqmx_integration",
+              "permalink": "/docs/fundamentals/daqmx_integration",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/nidaq_integration.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "fundamentals/data_writers",
+              "id": "fundamentals/data_writers",
+              "isDocsHomePage": false,
+              "title": "Writing Data to Files",
+              "description": "VideoWriter \\sink",
+              "source": "@site/docs/fundamentals/data_writers.md",
+              "slug": "/fundamentals/data_writers",
+              "permalink": "/docs/fundamentals/data_writers",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/data_writers.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "fundamentals/video_acquisition",
+              "id": "fundamentals/video_acquisition",
+              "isDocsHomePage": false,
+              "title": "Acquiring Video",
+              "description": "Basler cameras",
+              "source": "@site/docs/fundamentals/video_acquisition.md",
+              "slug": "/fundamentals/video_acquisition",
+              "permalink": "/docs/fundamentals/video_acquisition",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video_acquisition.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Zip",
+                "permalink": "/docs/core/zip"
+              },
+              "next": {
+                "title": "Style Guide",
+                "permalink": "/docs/meta/style_guide"
+              }
+            },
+            {
+              "unversionedId": "getting_started",
+              "id": "getting_started",
+              "isDocsHomePage": false,
+              "title": "Welcome to Bonsai Docs!",
+              "description": "Bonsai is a visual language for reactive programming built on top of ReactiveX.",
+              "source": "@site/docs/getting_started.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started.md",
+              "version": "current",
+              "sidebar": "docs",
+              "next": {
+                "title": "Zip",
+                "permalink": "/docs/core/zip"
+              }
+            },
+            {
+              "unversionedId": "meta/style_guide",
+              "id": "meta/style_guide",
+              "isDocsHomePage": false,
+              "title": "Style Guide",
+              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "source": "@site/docs/meta/style_guide.md",
+              "slug": "/meta/style_guide",
+              "permalink": "/docs/meta/style_guide",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/style_guide.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Acquiring Video",
+                "permalink": "/docs/fundamentals/video_acquisition"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

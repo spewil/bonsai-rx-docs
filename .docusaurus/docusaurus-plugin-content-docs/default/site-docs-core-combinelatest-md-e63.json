@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/combinelatest",
+  "id": "core/combinelatest",
+  "isDocsHomePage": false,
+  "title": "CombineLatest",
+  "description": "The CombineLatest operator allows you to combine the items emitted by two or more observable sequences. Items are paired whenever any of the sequences emits a new item, using the latest items emitted by each of the other observables.",
+  "source": "@site/docs/core/combinelatest.md",
+  "slug": "/core/combinelatest",
+  "permalink": "/docs/core/combinelatest",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/core/combinelatest.md",
+  "version": "current"
+}

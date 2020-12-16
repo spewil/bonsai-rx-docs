@@ -1,0 +1,12 @@
+{
+  "unversionedId": "getting_started/07-property-mapping",
+  "id": "getting_started/07-property-mapping",
+  "isDocsHomePage": false,
+  "title": "Property Mapping",
+  "description": "Each Bonsai operator exposes a set of configuration properties that allow you to parameterize that operator's behaviour. These parameters can be configured manually from the editor Properties panel. However, there are times when you may need to map the properties of an operator dynamically from the output of other observable sequences.",
+  "source": "@site/docs/getting_started/07-property-mapping.md",
+  "slug": "/getting_started/07-property-mapping",
+  "permalink": "/docs/getting_started/07-property-mapping",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting_started/07-property-mapping.md",
+  "version": "current"
+}
