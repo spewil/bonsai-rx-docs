@@ -81,7 +81,7 @@ acquires a sequence of images from a FLIR camera using the Spinnaker software
 
 Camera parameters have to be set in SpinView every time a camera is connected.
 
-### **properties**:
+**properties**:
 -   `ColorProcessing` - the methodDefault vs. NoColorProcessing
 -   `Index` - index of the camera to acquire images from
 
@@ -147,12 +147,12 @@ Camera parameters have to be set in SpinView every time a camera is connected.
 
 ---
 
-## Webcam
+## **Webcam**
 
 Requires:
 -   bonsai Vision Library
 
-**`CameraCapture`** \#source
+### **`CameraCapture`** \#source
 acquires a sequence of images from camera with the specified index
 
 **properties**:
@@ -187,6 +187,6 @@ acquires a sequence of images from camera with the specified index
 
 ---
 
-### Common errors
+## Common errors
 `Runtime error: Unable to acquire camera frame`\
 One possible reason is that the camera is currently open in another software, e.g. pylonViewer or SpinView.
