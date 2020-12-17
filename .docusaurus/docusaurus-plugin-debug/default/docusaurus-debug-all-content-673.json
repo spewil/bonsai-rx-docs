@@ -8,8 +8,8 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
-          "docsDirPath": "/Users/spencerw/Documents/bonsai-rx-docs/docs",
+          "sidebarFilePath": "C:\\Users\\zanem\\bonsai-rx-docs\\sidebars.js",
+          "docsDirPath": "C:\\Users\\zanem\\bonsai-rx-docs\\docs",
           "mainDocId": "getting_started",
           "sidebars": {
             "docs": [
@@ -30,8 +30,66 @@
                 "label": "Bonsai Core",
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "core/zip"
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Reactive",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/amb"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/combine_latest"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/concat"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/distinct_until_changed"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/merge"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/skip"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/skip_until"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/take"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/take_until"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/time_interval"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "core/reactive/zip"
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Expressions",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "core/expressions/bitwise_not"
+                      }
+                    ]
                   }
                 ]
               },
@@ -60,22 +118,54 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/core/zip": "docs",
+            "/docs/core/expressions/bitwise_not": "docs",
+            "/docs/core/reactive/amb": "docs",
+            "/docs/core/reactive/combine_latest": "docs",
+            "/docs/core/reactive/concat": "docs",
+            "/docs/core/reactive/distinct_until_changed": "docs",
+            "/docs/core/reactive/merge": "docs",
+            "/docs/core/reactive/skip": "docs",
+            "/docs/core/reactive/skip_until": "docs",
+            "/docs/core/reactive/take": "docs",
+            "/docs/core/reactive/take_until": "docs",
+            "/docs/core/reactive/time_interval": "docs",
+            "/docs/core/reactive/zip": "docs",
             "/docs/fundamentals/video_acquisition": "docs",
             "/docs/": "docs",
             "/docs/meta/style_guide": "docs"
           },
           "docs": [
             {
-              "unversionedId": "core/zip",
-              "id": "core/zip",
+              "unversionedId": "core/expressions/bitwise_not",
+              "id": "core/expressions/bitwise_not",
               "isDocsHomePage": false,
-              "title": "Zip",
-              "description": "Category: Combining",
-              "source": "@site/docs/core/zip.md",
-              "slug": "/core/zip",
-              "permalink": "/docs/core/zip",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/zip.md",
+              "title": "BitwiseNot",
+              "description": "Category: Transform",
+              "source": "@site/docs\\core\\expressions\\bitwise_not.md",
+              "slug": "/core/expressions/bitwise_not",
+              "permalink": "/docs/core/expressions/bitwise_not",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/expressions/bitwise_not.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Zip",
+                "permalink": "/docs/core/reactive/zip"
+              },
+              "next": {
+                "title": "Acquiring Video",
+                "permalink": "/docs/fundamentals/video_acquisition"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/amb",
+              "id": "core/reactive/amb",
+              "isDocsHomePage": false,
+              "title": "Amb",
+              "description": "Category: Combinator",
+              "source": "@site/docs\\core\\reactive\\amb.md",
+              "slug": "/core/reactive/amb",
+              "permalink": "/docs/core/reactive/amb",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/amb.md",
               "version": "current",
               "sidebar": "docs",
               "previous": {
@@ -83,8 +173,218 @@
                 "permalink": "/docs/"
               },
               "next": {
-                "title": "Acquiring Video",
-                "permalink": "/docs/fundamentals/video_acquisition"
+                "title": "CombineLatest",
+                "permalink": "/docs/core/reactive/combine_latest"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/combine_latest",
+              "id": "core/reactive/combine_latest",
+              "isDocsHomePage": false,
+              "title": "CombineLatest",
+              "description": "Category: Combinator",
+              "source": "@site/docs\\core\\reactive\\combine_latest.md",
+              "slug": "/core/reactive/combine_latest",
+              "permalink": "/docs/core/reactive/combine_latest",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/combine_latest.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Amb",
+                "permalink": "/docs/core/reactive/amb"
+              },
+              "next": {
+                "title": "Concat",
+                "permalink": "/docs/core/reactive/concat"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/concat",
+              "id": "core/reactive/concat",
+              "isDocsHomePage": false,
+              "title": "Concat",
+              "description": "Category: Combinator",
+              "source": "@site/docs\\core\\reactive\\concat.md",
+              "slug": "/core/reactive/concat",
+              "permalink": "/docs/core/reactive/concat",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/concat.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "CombineLatest",
+                "permalink": "/docs/core/reactive/combine_latest"
+              },
+              "next": {
+                "title": "DistinctUntilChanged",
+                "permalink": "/docs/core/reactive/distinct_until_changed"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/distinct_until_changed",
+              "id": "core/reactive/distinct_until_changed",
+              "isDocsHomePage": false,
+              "title": "DistinctUntilChanged",
+              "description": "Category: Combinator (filtering)",
+              "source": "@site/docs\\core\\reactive\\distinct_until_changed.md",
+              "slug": "/core/reactive/distinct_until_changed",
+              "permalink": "/docs/core/reactive/distinct_until_changed",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/distinct_until_changed.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Concat",
+                "permalink": "/docs/core/reactive/concat"
+              },
+              "next": {
+                "title": "Merge",
+                "permalink": "/docs/core/reactive/merge"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/merge",
+              "id": "core/reactive/merge",
+              "isDocsHomePage": false,
+              "title": "Merge",
+              "description": "Category: Combinator",
+              "source": "@site/docs\\core\\reactive\\merge.md",
+              "slug": "/core/reactive/merge",
+              "permalink": "/docs/core/reactive/merge",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/merge.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "DistinctUntilChanged",
+                "permalink": "/docs/core/reactive/distinct_until_changed"
+              },
+              "next": {
+                "title": "Skip",
+                "permalink": "/docs/core/reactive/skip"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/skip",
+              "id": "core/reactive/skip",
+              "isDocsHomePage": false,
+              "title": "Skip",
+              "description": "Category: Combinator (filtering)",
+              "source": "@site/docs\\core\\reactive\\skip.md",
+              "slug": "/core/reactive/skip",
+              "permalink": "/docs/core/reactive/skip",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/skip.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Merge",
+                "permalink": "/docs/core/reactive/merge"
+              },
+              "next": {
+                "title": "SkipUntil",
+                "permalink": "/docs/core/reactive/skip_until"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/skip_until",
+              "id": "core/reactive/skip_until",
+              "isDocsHomePage": false,
+              "title": "SkipUntil",
+              "description": "Category: Combinator (filtering)",
+              "source": "@site/docs\\core\\reactive\\skip_until.md",
+              "slug": "/core/reactive/skip_until",
+              "permalink": "/docs/core/reactive/skip_until",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/skip_until.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Skip",
+                "permalink": "/docs/core/reactive/skip"
+              },
+              "next": {
+                "title": "Take",
+                "permalink": "/docs/core/reactive/take"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/take",
+              "id": "core/reactive/take",
+              "isDocsHomePage": false,
+              "title": "Take",
+              "description": "Category: Combinator (filtering)",
+              "source": "@site/docs\\core\\reactive\\take.md",
+              "slug": "/core/reactive/take",
+              "permalink": "/docs/core/reactive/take",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/take.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "SkipUntil",
+                "permalink": "/docs/core/reactive/skip_until"
+              },
+              "next": {
+                "title": "TakeUntil",
+                "permalink": "/docs/core/reactive/take_until"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/take_until",
+              "id": "core/reactive/take_until",
+              "isDocsHomePage": false,
+              "title": "TakeUntil",
+              "description": "Category: Combinator (filtering)",
+              "source": "@site/docs\\core\\reactive\\take_until.md",
+              "slug": "/core/reactive/take_until",
+              "permalink": "/docs/core/reactive/take_until",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/take_until.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Take",
+                "permalink": "/docs/core/reactive/take"
+              },
+              "next": {
+                "title": "TimeInterval",
+                "permalink": "/docs/core/reactive/time_interval"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/time_interval",
+              "id": "core/reactive/time_interval",
+              "isDocsHomePage": false,
+              "title": "TimeInterval",
+              "description": "Category: Combinator",
+              "source": "@site/docs\\core\\reactive\\time_interval.md",
+              "slug": "/core/reactive/time_interval",
+              "permalink": "/docs/core/reactive/time_interval",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/time_interval.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "TakeUntil",
+                "permalink": "/docs/core/reactive/take_until"
+              },
+              "next": {
+                "title": "Zip",
+                "permalink": "/docs/core/reactive/zip"
+              }
+            },
+            {
+              "unversionedId": "core/reactive/zip",
+              "id": "core/reactive/zip",
+              "isDocsHomePage": false,
+              "title": "Zip",
+              "description": "Category: Combinator",
+              "source": "@site/docs\\core\\reactive\\zip.md",
+              "slug": "/core/reactive/zip",
+              "permalink": "/docs/core/reactive/zip",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/zip.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "TimeInterval",
+                "permalink": "/docs/core/reactive/time_interval"
+              },
+              "next": {
+                "title": "BitwiseNot",
+                "permalink": "/docs/core/expressions/bitwise_not"
               }
             },
             {
@@ -93,7 +393,7 @@
               "isDocsHomePage": false,
               "title": "Interfacing with NI-DAQ Devices",
               "description": "Requires:",
-              "source": "@site/docs/fundamentals/nidaq_integration.md",
+              "source": "@site/docs\\fundamentals\\nidaq_integration.md",
               "slug": "/fundamentals/daqmx_integration",
               "permalink": "/docs/fundamentals/daqmx_integration",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/nidaq_integration.md",
@@ -105,7 +405,7 @@
               "isDocsHomePage": false,
               "title": "Writing Data to Files",
               "description": "VideoWriter \\sink",
-              "source": "@site/docs/fundamentals/data_writers.md",
+              "source": "@site/docs\\fundamentals\\data_writers.md",
               "slug": "/fundamentals/data_writers",
               "permalink": "/docs/fundamentals/data_writers",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/data_writers.md",
@@ -117,15 +417,15 @@
               "isDocsHomePage": false,
               "title": "Acquiring Video",
               "description": "Basler cameras",
-              "source": "@site/docs/fundamentals/video_acquisition.md",
+              "source": "@site/docs\\fundamentals\\video_acquisition.md",
               "slug": "/fundamentals/video_acquisition",
               "permalink": "/docs/fundamentals/video_acquisition",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video_acquisition.md",
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Zip",
-                "permalink": "/docs/core/zip"
+                "title": "BitwiseNot",
+                "permalink": "/docs/core/expressions/bitwise_not"
               },
               "next": {
                 "title": "Style Guide",
@@ -138,15 +438,15 @@
               "isDocsHomePage": false,
               "title": "Welcome to Bonsai Docs!",
               "description": "Bonsai is a visual language for reactive programming built on top of ReactiveX.",
-              "source": "@site/docs/getting_started.md",
+              "source": "@site/docs\\getting_started.md",
               "slug": "/",
               "permalink": "/docs/",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started.md",
               "version": "current",
               "sidebar": "docs",
               "next": {
-                "title": "Zip",
-                "permalink": "/docs/core/zip"
+                "title": "Amb",
+                "permalink": "/docs/core/reactive/amb"
               }
             },
             {
@@ -155,7 +455,7 @@
               "isDocsHomePage": false,
               "title": "Style Guide",
               "description": "You can write content using GitHub-flavored Markdown syntax.",
-              "source": "@site/docs/meta/style_guide.md",
+              "source": "@site/docs\\meta\\style_guide.md",
               "slug": "/meta/style_guide",
               "permalink": "/docs/meta/style_guide",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/style_guide.md",
@@ -179,7 +479,7 @@
       {
         "type": "jsx",
         "permalink": "/",
-        "source": "@site/src/pages/index.js"
+        "source": "@site/src\\pages\\index.js"
       }
     ]
   },

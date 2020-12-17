@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
   path: '/',
-  component: ComponentCreator('/','deb'),
+  component: ComponentCreator('/','d7d'),
   exact: true,
 },
 {
@@ -19,7 +19,7 @@ export default [
 },
 {
   path: '/__docusaurus/debug/content',
-  component: ComponentCreator('/__docusaurus/debug/content','c28'),
+  component: ComponentCreator('/__docusaurus/debug/content','d12'),
   exact: true,
 },
 {
@@ -44,37 +44,92 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','1fd'),
+  component: ComponentCreator('/docs','0de'),
   
   routes: [
 {
   path: '/docs/',
-  component: ComponentCreator('/docs/','3ac'),
+  component: ComponentCreator('/docs/','679'),
   exact: true,
 },
 {
-  path: '/docs/core/zip',
-  component: ComponentCreator('/docs/core/zip','fb9'),
+  path: '/docs/core/expressions/bitwise_not',
+  component: ComponentCreator('/docs/core/expressions/bitwise_not','daf'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/amb',
+  component: ComponentCreator('/docs/core/reactive/amb','80a'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/combine_latest',
+  component: ComponentCreator('/docs/core/reactive/combine_latest','882'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/concat',
+  component: ComponentCreator('/docs/core/reactive/concat','428'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/distinct_until_changed',
+  component: ComponentCreator('/docs/core/reactive/distinct_until_changed','450'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/merge',
+  component: ComponentCreator('/docs/core/reactive/merge','bb2'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/skip',
+  component: ComponentCreator('/docs/core/reactive/skip','307'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/skip_until',
+  component: ComponentCreator('/docs/core/reactive/skip_until','3ff'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/take',
+  component: ComponentCreator('/docs/core/reactive/take','c54'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/take_until',
+  component: ComponentCreator('/docs/core/reactive/take_until','244'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/time_interval',
+  component: ComponentCreator('/docs/core/reactive/time_interval','7b1'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/zip',
+  component: ComponentCreator('/docs/core/reactive/zip','0cf'),
   exact: true,
 },
 {
   path: '/docs/fundamentals/daqmx_integration',
-  component: ComponentCreator('/docs/fundamentals/daqmx_integration','458'),
+  component: ComponentCreator('/docs/fundamentals/daqmx_integration','00b'),
   exact: true,
 },
 {
   path: '/docs/fundamentals/data_writers',
-  component: ComponentCreator('/docs/fundamentals/data_writers','2ee'),
+  component: ComponentCreator('/docs/fundamentals/data_writers','d49'),
   exact: true,
 },
 {
   path: '/docs/fundamentals/video_acquisition',
-  component: ComponentCreator('/docs/fundamentals/video_acquisition','7ef'),
+  component: ComponentCreator('/docs/fundamentals/video_acquisition','b93'),
   exact: true,
 },
 {
   path: '/docs/meta/style_guide',
-  component: ComponentCreator('/docs/meta/style_guide','e3e'),
+  component: ComponentCreator('/docs/meta/style_guide','a4b'),
   exact: true,
 },
 ]
