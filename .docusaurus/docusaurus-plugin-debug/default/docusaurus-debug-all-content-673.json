@@ -8,8 +8,8 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
-          "docsDirPath": "/Users/spencerw/Documents/bonsai-rx-docs/docs",
+          "sidebarFilePath": "/Users/spencerw/Downloads/docs_test/bonsai-rx-docs/sidebars.js",
+          "docsDirPath": "/Users/spencerw/Downloads/docs_test/bonsai-rx-docs/docs",
           "mainDocId": "getting_started/getting_started",
           "sidebars": {
             "docs": [

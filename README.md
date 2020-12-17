@@ -8,9 +8,11 @@ If you'd like to contribute docs but aren't interested in developing the documen
 
 # How to build the site locally
 
+Make sure you have the `yarn` Node package by installing with the package manager of your choice (brew, chocolatey, etc).
+
 ## Installation
 
-Make sure you have yarn by installing with the package manager of your choice (brew, chocolatey, etc).
+If it's your first time cloning and developing in the repo, install the requisite Node packages.
 
 ```console
 yarn install
@@ -36,6 +38,11 @@ This command generates static content into the `build` directory and can be serv
 
 Coming soon!
 
-# Using Yarn
+# Yarn Resources
 
-https://classic.yarnpkg.com/en/docs/version-control
+[Preparing the Docusaurus site.](https://docusaurus.io/docs/en/site-preparation#key-files)
+
+[Example Node `gitignore`.](https://github.com/github/gitignore/blob/master/Node.gitignore)
+
+
+[Using Yarn with version control.](https://classic.yarnpkg.com/en/docs/version-control)
