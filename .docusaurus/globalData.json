@@ -8,8 +8,18 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "getting_started",
+          "mainDocId": "getting_started/getting_started",
           "docs": [
+            {
+              "id": "concepts/editor",
+              "path": "/docs/concepts/editor",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/gallery",
+              "path": "/docs/concepts/gallery",
+              "sidebar": "docs"
+            },
             {
               "id": "core/zip",
               "path": "/docs/core/zip",
@@ -29,8 +39,13 @@
               "sidebar": "docs"
             },
             {
-              "id": "getting_started",
+              "id": "getting_started/getting_started",
               "path": "/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting_started/installation",
+              "path": "/docs/getting_started/installation",
               "sidebar": "docs"
             },
             {

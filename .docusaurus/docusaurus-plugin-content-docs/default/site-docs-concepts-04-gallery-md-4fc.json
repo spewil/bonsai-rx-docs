@@ -1,0 +1,12 @@
+{
+  "unversionedId": "concepts/_04-gallery",
+  "id": "concepts/_04-gallery",
+  "isDocsHomePage": false,
+  "title": "Bonsai Gallery",
+  "description": "A good way to get started with Bonsai is to look at some examples. The editor includes a built-in gallery of example workflows for running common tasks you might want to do with Bonsai. You can access the gallery via the Tools menu of the workflow editor.",
+  "source": "@site/docs/concepts/_04-gallery.md",
+  "slug": "/concepts/_04-gallery",
+  "permalink": "/docs/concepts/_04-gallery",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/_04-gallery.md",
+  "version": "current"
+}

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "concepts/_03-editor",
+  "id": "concepts/_03-editor",
+  "isDocsHomePage": false,
+  "title": "Workflow Editor",
+  "description": "{% include toc icon=\"columns\" title=\"Editor\" %}",
+  "source": "@site/docs/concepts/_03-editor.md",
+  "slug": "/concepts/_03-editor",
+  "permalink": "/docs/concepts/_03-editor",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/_03-editor.md",
+  "version": "current"
+}

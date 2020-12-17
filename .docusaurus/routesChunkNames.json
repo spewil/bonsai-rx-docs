@@ -25,13 +25,21 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/docs-1fd": {
+  "/docs-fd2": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/-3ac": {
+  "/docs/-986": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-92-b-bd6"
+    "content": "content---docs-267-a9e"
+  },
+  "/docs/concepts/editor-f1e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-editor-618-7fd"
+  },
+  "/docs/concepts/gallery-969": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-galleryfec-781"
   },
   "/docs/core/zip-fb9": {
     "component": "component---theme-doc-item-178-a40",
@@ -48,6 +56,10 @@
   "/docs/fundamentals/video_acquisition-7ef": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-fundamentals-video-acquisition-13-d-cb2"
+  },
+  "/docs/getting_started/installation-4e3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-installationf-27-211"
   },
   "/docs/meta/style_guide-e3e": {
     "component": "component---theme-doc-item-178-a40",

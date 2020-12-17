@@ -10,7 +10,7 @@
           "routePriority": -1,
           "sidebarFilePath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
           "docsDirPath": "/Users/spencerw/Documents/bonsai-rx-docs/docs",
-          "mainDocId": "getting_started",
+          "mainDocId": "getting_started/getting_started",
           "sidebars": {
             "docs": [
               {
@@ -20,7 +20,26 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "getting_started"
+                    "id": "getting_started/getting_started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting_started/installation"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Basic Concepts",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "concepts/editor"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/gallery"
                   }
                 ]
               },
@@ -60,12 +79,57 @@
             ]
           },
           "permalinkToSidebar": {
+            "/docs/concepts/editor": "docs",
+            "/docs/concepts/gallery": "docs",
             "/docs/core/zip": "docs",
             "/docs/fundamentals/video_acquisition": "docs",
             "/docs/": "docs",
+            "/docs/getting_started/installation": "docs",
             "/docs/meta/style_guide": "docs"
           },
           "docs": [
+            {
+              "unversionedId": "concepts/editor",
+              "id": "concepts/editor",
+              "isDocsHomePage": false,
+              "title": "Workflow Editor",
+              "description": "A quick introduction to the Bonsai workflow editor.",
+              "source": "@site/docs/concepts/editor.md",
+              "slug": "/concepts/editor",
+              "permalink": "/docs/concepts/editor",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/editor.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Installing Bonsai",
+                "permalink": "/docs/getting_started/installation"
+              },
+              "next": {
+                "title": "Bonsai Gallery",
+                "permalink": "/docs/concepts/gallery"
+              }
+            },
+            {
+              "unversionedId": "concepts/gallery",
+              "id": "concepts/gallery",
+              "isDocsHomePage": false,
+              "title": "Bonsai Gallery",
+              "description": "A good way to get started with Bonsai is to look at some examples. The editor includes a built-in gallery of example workflows for running common tasks you might want to do with Bonsai. You can access the gallery via the Tools menu of the workflow editor.",
+              "source": "@site/docs/concepts/gallery.md",
+              "slug": "/concepts/gallery",
+              "permalink": "/docs/concepts/gallery",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/gallery.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Workflow Editor",
+                "permalink": "/docs/concepts/editor"
+              },
+              "next": {
+                "title": "Zip",
+                "permalink": "/docs/core/zip"
+              }
+            },
             {
               "unversionedId": "core/zip",
               "id": "core/zip",
@@ -79,8 +143,8 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Welcome to Bonsai Docs!",
-                "permalink": "/docs/"
+                "title": "Bonsai Gallery",
+                "permalink": "/docs/concepts/gallery"
               },
               "next": {
                 "title": "Acquiring Video",
@@ -133,20 +197,41 @@
               }
             },
             {
-              "unversionedId": "getting_started",
-              "id": "getting_started",
+              "unversionedId": "getting_started/getting_started",
+              "id": "getting_started/getting_started",
               "isDocsHomePage": false,
-              "title": "Welcome to Bonsai Docs!",
+              "title": "What is Bonsai?",
               "description": "Bonsai is a visual language for reactive programming built on top of ReactiveX.",
-              "source": "@site/docs/getting_started.md",
+              "source": "@site/docs/getting_started/getting_started.md",
               "slug": "/",
               "permalink": "/docs/",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started.md",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started/getting_started.md",
               "version": "current",
               "sidebar": "docs",
               "next": {
-                "title": "Zip",
-                "permalink": "/docs/core/zip"
+                "title": "Installing Bonsai",
+                "permalink": "/docs/getting_started/installation"
+              }
+            },
+            {
+              "unversionedId": "getting_started/installation",
+              "id": "getting_started/installation",
+              "isDocsHomePage": false,
+              "title": "Installing Bonsai",
+              "description": "A quick start guide to installing and running the Bonsai editor.",
+              "source": "@site/docs/getting_started/installation.md",
+              "slug": "/getting_started/installation",
+              "permalink": "/docs/getting_started/installation",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started/installation.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "What is Bonsai?",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Workflow Editor",
+                "permalink": "/docs/concepts/editor"
               }
             },
             {

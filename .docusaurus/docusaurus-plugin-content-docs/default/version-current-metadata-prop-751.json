@@ -12,8 +12,30 @@
         "items": [
           {
             "type": "link",
-            "label": "Welcome to Bonsai Docs!",
+            "label": "What is Bonsai?",
             "href": "/docs/"
+          },
+          {
+            "type": "link",
+            "label": "Installing Bonsai",
+            "href": "/docs/getting_started/installation"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Basic Concepts",
+        "items": [
+          {
+            "type": "link",
+            "label": "Workflow Editor",
+            "href": "/docs/concepts/editor"
+          },
+          {
+            "type": "link",
+            "label": "Bonsai Gallery",
+            "href": "/docs/concepts/gallery"
           }
         ]
       },
@@ -56,9 +78,12 @@
     ]
   },
   "permalinkToSidebar": {
+    "/docs/concepts/editor": "docs",
+    "/docs/concepts/gallery": "docs",
     "/docs/core/zip": "docs",
     "/docs/fundamentals/video_acquisition": "docs",
     "/docs/": "docs",
+    "/docs/getting_started/installation": "docs",
     "/docs/meta/style_guide": "docs"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "concepts/_06-operators",
+  "id": "concepts/_06-operators",
+  "isDocsHomePage": false,
+  "title": "Operators",
+  "description": "{% include toc icon=\"columns\" title=\"Operators\" %}",
+  "source": "@site/docs/concepts/_06-operators.md",
+  "slug": "/concepts/_06-operators",
+  "permalink": "/docs/concepts/_06-operators",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/_06-operators.md",
+  "version": "current"
+}

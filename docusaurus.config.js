@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'node problem',
   url: 'https://spewil.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'spewil', // Usually your GitHub org/user name.

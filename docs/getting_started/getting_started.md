@@ -1,6 +1,6 @@
 ---
 id: getting_started
-title: Welcome to Bonsai Docs!
+title: What is Bonsai?
 slug: /
 ---
 

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "concepts/_08-higher-order",
+  "id": "concepts/_08-higher-order",
+  "isDocsHomePage": false,
+  "title": "Higher Order Operators",
+  "description": "In most cases, when building simple reactive systems, it is enough to place a source for every device or every file you are accessing, as well as a set of transforms, sinks and combinators representing all the operations you need to perform on the data.",
+  "source": "@site/docs/concepts/_08-higher-order.md",
+  "slug": "/concepts/_08-higher-order",
+  "permalink": "/docs/concepts/_08-higher-order",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/_08-higher-order.md",
+  "version": "current"
+}

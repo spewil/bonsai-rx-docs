@@ -44,12 +44,22 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','1fd'),
+  component: ComponentCreator('/docs','fd2'),
   
   routes: [
 {
   path: '/docs/',
-  component: ComponentCreator('/docs/','3ac'),
+  component: ComponentCreator('/docs/','986'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/editor',
+  component: ComponentCreator('/docs/concepts/editor','f1e'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/gallery',
+  component: ComponentCreator('/docs/concepts/gallery','969'),
   exact: true,
 },
 {
@@ -70,6 +80,11 @@ export default [
 {
   path: '/docs/fundamentals/video_acquisition',
   component: ComponentCreator('/docs/fundamentals/video_acquisition','7ef'),
+  exact: true,
+},
+{
+  path: '/docs/getting_started/installation',
+  component: ComponentCreator('/docs/getting_started/installation','4e3'),
   exact: true,
 },
 {
