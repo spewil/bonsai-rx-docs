@@ -23,9 +23,78 @@
         "label": "Bonsai Core",
         "items": [
           {
-            "type": "link",
-            "label": "Zip",
-            "href": "/docs/core/zip"
+            "collapsed": true,
+            "type": "category",
+            "label": "Reactive",
+            "items": [
+              {
+                "type": "link",
+                "label": "Amb",
+                "href": "/docs/core/reactive/amb"
+              },
+              {
+                "type": "link",
+                "label": "CombineLatest",
+                "href": "/docs/core/reactive/combine_latest"
+              },
+              {
+                "type": "link",
+                "label": "Concat",
+                "href": "/docs/core/reactive/concat"
+              },
+              {
+                "type": "link",
+                "label": "DistinctUntilChanged",
+                "href": "/docs/core/reactive/distinct_until_changed"
+              },
+              {
+                "type": "link",
+                "label": "Merge",
+                "href": "/docs/core/reactive/merge"
+              },
+              {
+                "type": "link",
+                "label": "Skip",
+                "href": "/docs/core/reactive/skip"
+              },
+              {
+                "type": "link",
+                "label": "SkipUntil",
+                "href": "/docs/core/reactive/skip_until"
+              },
+              {
+                "type": "link",
+                "label": "Take",
+                "href": "/docs/core/reactive/take"
+              },
+              {
+                "type": "link",
+                "label": "TakeUntil",
+                "href": "/docs/core/reactive/take_until"
+              },
+              {
+                "type": "link",
+                "label": "TimeInterval",
+                "href": "/docs/core/reactive/time_interval"
+              },
+              {
+                "type": "link",
+                "label": "Zip",
+                "href": "/docs/core/reactive/zip"
+              }
+            ]
+          },
+          {
+            "collapsed": true,
+            "type": "category",
+            "label": "Expressions",
+            "items": [
+              {
+                "type": "link",
+                "label": "BitwiseNot",
+                "href": "/docs/core/expressions/bitwise_not"
+              }
+            ]
           }
         ]
       },
@@ -56,7 +125,18 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/core/zip": "docs",
+    "/docs/core/expressions/bitwise_not": "docs",
+    "/docs/core/reactive/amb": "docs",
+    "/docs/core/reactive/combine_latest": "docs",
+    "/docs/core/reactive/concat": "docs",
+    "/docs/core/reactive/distinct_until_changed": "docs",
+    "/docs/core/reactive/merge": "docs",
+    "/docs/core/reactive/skip": "docs",
+    "/docs/core/reactive/skip_until": "docs",
+    "/docs/core/reactive/take": "docs",
+    "/docs/core/reactive/take_until": "docs",
+    "/docs/core/reactive/time_interval": "docs",
+    "/docs/core/reactive/zip": "docs",
     "/docs/fundamentals/video_acquisition": "docs",
     "/docs/": "docs",
     "/docs/meta/style_guide": "docs"
