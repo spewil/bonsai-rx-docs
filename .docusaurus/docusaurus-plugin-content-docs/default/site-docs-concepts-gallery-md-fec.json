@@ -15,7 +15,7 @@
     "permalink": "/docs/concepts/editor"
   },
   "next": {
-    "title": "Zip",
-    "permalink": "/docs/core/zip"
+    "title": "Amb",
+    "permalink": "/docs/core/reactive/amb"
   }
 }

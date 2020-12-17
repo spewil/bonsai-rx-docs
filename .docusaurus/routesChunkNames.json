@@ -25,7 +25,7 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/docs-fd2": {
+  "/docs-b24": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -41,9 +41,53 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-concepts-galleryfec-781"
   },
-  "/docs/core/zip-fb9": {
+  "/docs/core/expressions/bitwise_not-772": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-core-zip-085-176"
+    "content": "content---docs-core-expressions-bitwise-not-0-b-8-a61"
+  },
+  "/docs/core/reactive/amb-681": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-amb-5-ac-151"
+  },
+  "/docs/core/reactive/combine_latest-972": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-combine-latest-3-ff-ccc"
+  },
+  "/docs/core/reactive/concat-01f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-concat-90-e-85b"
+  },
+  "/docs/core/reactive/distinct_until_changed-ce6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-distinct-until-changedbb-0-f7b"
+  },
+  "/docs/core/reactive/merge-74e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-merge-258-173"
+  },
+  "/docs/core/reactive/skip-a99": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-skipbf-5-577"
+  },
+  "/docs/core/reactive/skip_until-c95": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-skip-until-38-c-bd5"
+  },
+  "/docs/core/reactive/take-5ea": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-take-9-b-2-170"
+  },
+  "/docs/core/reactive/take_until-669": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-take-untile-08-870"
+  },
+  "/docs/core/reactive/time_interval-287": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-time-intervale-24-56e"
+  },
+  "/docs/core/reactive/zip-7c8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-core-reactive-zip-55-b-9f7"
   },
   "/docs/fundamentals/daqmx_integration-458": {
     "component": "component---theme-doc-item-178-a40",

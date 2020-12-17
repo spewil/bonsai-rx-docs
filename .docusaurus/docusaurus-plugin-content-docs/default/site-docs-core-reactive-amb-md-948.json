@@ -1,0 +1,21 @@
+{
+  "unversionedId": "core/reactive/amb",
+  "id": "core/reactive/amb",
+  "isDocsHomePage": false,
+  "title": "Amb",
+  "description": "Category: Combinator",
+  "source": "@site/docs\\core\\reactive\\amb.md",
+  "slug": "/core/reactive/amb",
+  "permalink": "/docs/core/reactive/amb",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/amb.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome to Bonsai Docs!",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "CombineLatest",
+    "permalink": "/docs/core/reactive/combine_latest"
+  }
+}

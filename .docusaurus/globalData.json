@@ -21,8 +21,63 @@
               "sidebar": "docs"
             },
             {
-              "id": "core/zip",
-              "path": "/docs/core/zip",
+              "id": "core/expressions/bitwise_not",
+              "path": "/docs/core/expressions/bitwise_not",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/amb",
+              "path": "/docs/core/reactive/amb",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/combine_latest",
+              "path": "/docs/core/reactive/combine_latest",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/concat",
+              "path": "/docs/core/reactive/concat",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/distinct_until_changed",
+              "path": "/docs/core/reactive/distinct_until_changed",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/merge",
+              "path": "/docs/core/reactive/merge",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/skip",
+              "path": "/docs/core/reactive/skip",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/skip_until",
+              "path": "/docs/core/reactive/skip_until",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/take",
+              "path": "/docs/core/reactive/take",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/take_until",
+              "path": "/docs/core/reactive/take_until",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/time_interval",
+              "path": "/docs/core/reactive/time_interval",
+              "sidebar": "docs"
+            },
+            {
+              "id": "core/reactive/zip",
+              "path": "/docs/core/reactive/zip",
               "sidebar": "docs"
             },
             {

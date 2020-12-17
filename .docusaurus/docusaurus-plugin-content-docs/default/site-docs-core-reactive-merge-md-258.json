@@ -1,0 +1,21 @@
+{
+  "unversionedId": "core/reactive/merge",
+  "id": "core/reactive/merge",
+  "isDocsHomePage": false,
+  "title": "Merge",
+  "description": "Category: Combinator",
+  "source": "@site/docs/core/reactive/merge.md",
+  "slug": "/core/reactive/merge",
+  "permalink": "/docs/core/reactive/merge",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/merge.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "DistinctUntilChanged",
+    "permalink": "/docs/core/reactive/distinct_until_changed"
+  },
+  "next": {
+    "title": "Skip",
+    "permalink": "/docs/core/reactive/skip"
+  }
+}

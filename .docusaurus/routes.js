@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','fd2'),
+  component: ComponentCreator('/docs','b24'),
   
   routes: [
 {
@@ -63,8 +63,63 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/core/zip',
-  component: ComponentCreator('/docs/core/zip','fb9'),
+  path: '/docs/core/expressions/bitwise_not',
+  component: ComponentCreator('/docs/core/expressions/bitwise_not','772'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/amb',
+  component: ComponentCreator('/docs/core/reactive/amb','681'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/combine_latest',
+  component: ComponentCreator('/docs/core/reactive/combine_latest','972'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/concat',
+  component: ComponentCreator('/docs/core/reactive/concat','01f'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/distinct_until_changed',
+  component: ComponentCreator('/docs/core/reactive/distinct_until_changed','ce6'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/merge',
+  component: ComponentCreator('/docs/core/reactive/merge','74e'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/skip',
+  component: ComponentCreator('/docs/core/reactive/skip','a99'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/skip_until',
+  component: ComponentCreator('/docs/core/reactive/skip_until','c95'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/take',
+  component: ComponentCreator('/docs/core/reactive/take','5ea'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/take_until',
+  component: ComponentCreator('/docs/core/reactive/take_until','669'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/time_interval',
+  component: ComponentCreator('/docs/core/reactive/time_interval','287'),
+  exact: true,
+},
+{
+  path: '/docs/core/reactive/zip',
+  component: ComponentCreator('/docs/core/reactive/zip','7c8'),
   exact: true,
 },
 {

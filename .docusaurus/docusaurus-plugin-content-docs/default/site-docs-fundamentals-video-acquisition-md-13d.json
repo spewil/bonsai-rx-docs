@@ -11,8 +11,8 @@
   "version": "current",
   "sidebar": "docs",
   "previous": {
-    "title": "Zip",
-    "permalink": "/docs/core/zip"
+    "title": "BitwiseNot",
+    "permalink": "/docs/core/expressions/bitwise_not"
   },
   "next": {
     "title": "Style Guide",

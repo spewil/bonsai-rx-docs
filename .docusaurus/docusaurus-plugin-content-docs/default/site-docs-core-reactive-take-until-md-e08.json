@@ -1,0 +1,21 @@
+{
+  "unversionedId": "core/reactive/take_until",
+  "id": "core/reactive/take_until",
+  "isDocsHomePage": false,
+  "title": "TakeUntil",
+  "description": "Category: Combinator (filtering)",
+  "source": "@site/docs/core/reactive/take_until.md",
+  "slug": "/core/reactive/take_until",
+  "permalink": "/docs/core/reactive/take_until",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/take_until.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Take",
+    "permalink": "/docs/core/reactive/take"
+  },
+  "next": {
+    "title": "TimeInterval",
+    "permalink": "/docs/core/reactive/time_interval"
+  }
+}
