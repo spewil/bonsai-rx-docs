@@ -35,3 +35,7 @@ This command generates static content into the `build` directory and can be serv
 ## Deployment
 
 Coming soon!
+
+# Using Yarn
+
+https://classic.yarnpkg.com/en/docs/version-control
