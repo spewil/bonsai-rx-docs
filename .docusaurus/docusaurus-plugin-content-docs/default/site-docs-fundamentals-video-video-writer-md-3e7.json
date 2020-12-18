@@ -1,0 +1,21 @@
+{
+  "unversionedId": "fundamentals/video/video_writer",
+  "id": "fundamentals/video/video_writer",
+  "isDocsHomePage": false,
+  "title": "VideoWriter",
+  "description": "Prerequisites:",
+  "source": "@site/docs\\fundamentals\\video\\video_writer.md",
+  "slug": "/fundamentals/video/video_writer",
+  "permalink": "/docs/fundamentals/video/video_writer",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video/video_writer.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "CameraCapture",
+    "permalink": "/docs/fundamentals/video/camera_capture"
+  },
+  "next": {
+    "title": "Writing Documentation",
+    "permalink": "/docs/meta/writing_docs"
+  }
+}

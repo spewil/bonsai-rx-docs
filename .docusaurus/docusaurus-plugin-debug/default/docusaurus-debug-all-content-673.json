@@ -8,8 +8,8 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
-          "docsDirPath": "/Users/spencerw/Documents/bonsai-rx-docs/docs",
+          "sidebarFilePath": "C:\\Users\\zanem\\bonsai-rx-docs\\sidebars.js",
+          "docsDirPath": "C:\\Users\\zanem\\bonsai-rx-docs\\docs",
           "mainDocId": "getting_started/getting_started",
           "sidebars": {
             "docs": [
@@ -142,16 +142,86 @@
                 "label": "Workflow Fundamentals",
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "fundamentals/video_acquisition"
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "DAQmx",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/daqmx/analog_input"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/daqmx/analog_output"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/daqmx/digital_output"
+                      }
+                    ]
                   },
                   {
-                    "type": "doc",
-                    "id": "fundamentals/data_writers"
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Dsp",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/dsp/function_generator"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/dsp/matrix_writer"
+                      }
+                    ]
                   },
                   {
-                    "type": "doc",
-                    "id": "fundamentals/daqmx_integration"
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "IO",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/io/csv_writer"
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Pylon",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/pylon/pylon_capture"
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Spinnaker",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/spinnaker/spinnaker_capture"
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Video",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/video/camera_capture"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "fundamentals/video/video_writer"
+                      }
+                    ]
                   }
                 ]
               },
@@ -199,9 +269,16 @@
             "/docs/core/reactive/take_until": "docs",
             "/docs/core/reactive/time_interval": "docs",
             "/docs/core/reactive/zip": "docs",
-            "/docs/fundamentals/daqmx_integration": "docs",
-            "/docs/fundamentals/data_writers": "docs",
-            "/docs/fundamentals/video_acquisition": "docs",
+            "/docs/fundamentals/daqmx/analog_input": "docs",
+            "/docs/fundamentals/daqmx/analog_output": "docs",
+            "/docs/fundamentals/daqmx/digital_output": "docs",
+            "/docs/fundamentals/dsp/function_generator": "docs",
+            "/docs/fundamentals/dsp/matrix_writer": "docs",
+            "/docs/fundamentals/io/csv_writer": "docs",
+            "/docs/fundamentals/pylon/pylon_capture": "docs",
+            "/docs/fundamentals/spinnaker/spinnaker_capture": "docs",
+            "/docs/fundamentals/video/camera_capture": "docs",
+            "/docs/fundamentals/video/video_writer": "docs",
             "/docs/": "docs",
             "/docs/getting_started/installation": "docs",
             "/docs/meta/creating_packages": "docs",
@@ -214,7 +291,7 @@
               "isDocsHomePage": false,
               "title": "Workflow Editor",
               "description": "A quick introduction to the Bonsai workflow editor.",
-              "source": "@site/docs/concepts/editor.md",
+              "source": "@site/docs\\concepts\\editor.md",
               "slug": "/concepts/editor",
               "permalink": "/docs/concepts/editor",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/editor.md",
@@ -235,7 +312,7 @@
               "isDocsHomePage": false,
               "title": "Bonsai Gallery",
               "description": "A good way to get started with Bonsai is to look at some examples. The editor includes a built-in gallery of example workflows for running common tasks you might want to do with Bonsai. You can access the gallery via the Tools menu of the workflow editor.",
-              "source": "@site/docs/concepts/gallery.md",
+              "source": "@site/docs\\concepts\\gallery.md",
               "slug": "/concepts/gallery",
               "permalink": "/docs/concepts/gallery",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/gallery.md",
@@ -256,7 +333,7 @@
               "isDocsHomePage": false,
               "title": "Higher Order Operators",
               "description": "In most cases, when building simple reactive systems, it is enough to place a source for every device or every file you are accessing, as well as a set of transforms, sinks and combinators representing all the operations you need to perform on the data.",
-              "source": "@site/docs/concepts/higher-order.md",
+              "source": "@site/docs\\concepts\\higher-order.md",
               "slug": "/concepts/higher_order",
               "permalink": "/docs/concepts/higher_order",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/higher-order.md",
@@ -277,7 +354,7 @@
               "isDocsHomePage": false,
               "title": "Observables",
               "description": "Bonsai makes use of a unified model for asynchronous data streams: the observable sequence. This model was introduced by the popular ReactiveX framework. Our favorite approach to explain what exactly is an observable sequence is to use a metaphor.",
-              "source": "@site/docs/concepts/observables.md",
+              "source": "@site/docs\\concepts\\observables.md",
               "slug": "/concepts/observables",
               "permalink": "/docs/concepts/observables",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/observables.md",
@@ -298,7 +375,7 @@
               "isDocsHomePage": false,
               "title": "Operators",
               "description": "{% include toc icon=\"columns\" title=\"Operators\" %}",
-              "source": "@site/docs/concepts/operators.md",
+              "source": "@site/docs\\concepts\\operators.md",
               "slug": "/concepts/operators",
               "permalink": "/docs/concepts/operators",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/operators.md",
@@ -319,7 +396,7 @@
               "isDocsHomePage": false,
               "title": "Package Manager",
               "description": "Bonsai can be extended by installing software packages containing operators designed for specific tasks, such as video processing or OpenGL shaders.",
-              "source": "@site/docs/concepts/packages.md",
+              "source": "@site/docs\\concepts\\packages.md",
               "slug": "/concepts/packages",
               "permalink": "/docs/concepts/packages",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/packages.md",
@@ -340,7 +417,7 @@
               "isDocsHomePage": false,
               "title": "Property Mapping",
               "description": "Each Bonsai operator exposes a set of configuration properties that allow you to parameterize that operator's behaviour. These parameters can be configured manually from the editor Properties panel. However, there are times when you may need to map the properties of an operator dynamically from the output of other observable sequences.",
-              "source": "@site/docs/concepts/property-mapping.md",
+              "source": "@site/docs\\concepts\\property-mapping.md",
               "slug": "/concepts/property_mapping",
               "permalink": "/docs/concepts/property_mapping",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/property-mapping.md",
@@ -361,7 +438,7 @@
               "isDocsHomePage": false,
               "title": "Subjects",
               "description": "Subjects are a special type of operator that allows reusing and sharing of observable sequences. A subject acts as a bridge or proxy; it will subscribe to an observable sequence and reemit all items it receives to downstream operators. Subjects play a role similar to branches by allowing multiple operators to subscribe to a single observable sequence.",
-              "source": "@site/docs/concepts/subjects.md",
+              "source": "@site/docs\\concepts\\subjects.md",
               "slug": "/concepts/subjects",
               "permalink": "/docs/concepts/subjects",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/subjects.md",
@@ -382,7 +459,7 @@
               "isDocsHomePage": false,
               "title": "BitwiseNot",
               "description": "Category: Transform",
-              "source": "@site/docs/core/expressions/bitwise_not.md",
+              "source": "@site/docs\\core\\expressions\\bitwise_not.md",
               "slug": "/core/expressions/bitwise_not",
               "permalink": "/docs/core/expressions/bitwise_not",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/expressions/bitwise_not.md",
@@ -393,8 +470,8 @@
                 "permalink": "/docs/core/reactive/zip"
               },
               "next": {
-                "title": "Acquiring Video",
-                "permalink": "/docs/fundamentals/video_acquisition"
+                "title": "AnalogInput",
+                "permalink": "/docs/fundamentals/daqmx/analog_input"
               }
             },
             {
@@ -403,7 +480,7 @@
               "isDocsHomePage": false,
               "title": "Amb",
               "description": "Category: Combinator",
-              "source": "@site/docs/core/reactive/amb.md",
+              "source": "@site/docs\\core\\reactive\\amb.md",
               "slug": "/core/reactive/amb",
               "permalink": "/docs/core/reactive/amb",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/amb.md",
@@ -424,7 +501,7 @@
               "isDocsHomePage": false,
               "title": "CombineLatest",
               "description": "Category: Combinator",
-              "source": "@site/docs/core/reactive/combine_latest.md",
+              "source": "@site/docs\\core\\reactive\\combine_latest.md",
               "slug": "/core/reactive/combine_latest",
               "permalink": "/docs/core/reactive/combine_latest",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/combine_latest.md",
@@ -445,7 +522,7 @@
               "isDocsHomePage": false,
               "title": "Concat",
               "description": "Category: Combinator",
-              "source": "@site/docs/core/reactive/concat.md",
+              "source": "@site/docs\\core\\reactive\\concat.md",
               "slug": "/core/reactive/concat",
               "permalink": "/docs/core/reactive/concat",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/concat.md",
@@ -466,7 +543,7 @@
               "isDocsHomePage": false,
               "title": "DistinctUntilChanged",
               "description": "Category: Combinator (filtering)",
-              "source": "@site/docs/core/reactive/distinct_until_changed.md",
+              "source": "@site/docs\\core\\reactive\\distinct_until_changed.md",
               "slug": "/core/reactive/distinct_until_changed",
               "permalink": "/docs/core/reactive/distinct_until_changed",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/distinct_until_changed.md",
@@ -487,7 +564,7 @@
               "isDocsHomePage": false,
               "title": "Merge",
               "description": "Category: Combinator",
-              "source": "@site/docs/core/reactive/merge.md",
+              "source": "@site/docs\\core\\reactive\\merge.md",
               "slug": "/core/reactive/merge",
               "permalink": "/docs/core/reactive/merge",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/merge.md",
@@ -508,7 +585,7 @@
               "isDocsHomePage": false,
               "title": "Skip",
               "description": "Category: Combinator (filtering)",
-              "source": "@site/docs/core/reactive/skip.md",
+              "source": "@site/docs\\core\\reactive\\skip.md",
               "slug": "/core/reactive/skip",
               "permalink": "/docs/core/reactive/skip",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/skip.md",
@@ -529,7 +606,7 @@
               "isDocsHomePage": false,
               "title": "SkipUntil",
               "description": "Category: Combinator (filtering)",
-              "source": "@site/docs/core/reactive/skip_until.md",
+              "source": "@site/docs\\core\\reactive\\skip_until.md",
               "slug": "/core/reactive/skip_until",
               "permalink": "/docs/core/reactive/skip_until",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/skip_until.md",
@@ -550,7 +627,7 @@
               "isDocsHomePage": false,
               "title": "Take",
               "description": "Category: Combinator (filtering)",
-              "source": "@site/docs/core/reactive/take.md",
+              "source": "@site/docs\\core\\reactive\\take.md",
               "slug": "/core/reactive/take",
               "permalink": "/docs/core/reactive/take",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/take.md",
@@ -571,7 +648,7 @@
               "isDocsHomePage": false,
               "title": "TakeUntil",
               "description": "Category: Combinator (filtering)",
-              "source": "@site/docs/core/reactive/take_until.md",
+              "source": "@site/docs\\core\\reactive\\take_until.md",
               "slug": "/core/reactive/take_until",
               "permalink": "/docs/core/reactive/take_until",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/take_until.md",
@@ -592,7 +669,7 @@
               "isDocsHomePage": false,
               "title": "TimeInterval",
               "description": "Category: Combinator",
-              "source": "@site/docs/core/reactive/time_interval.md",
+              "source": "@site/docs\\core\\reactive\\time_interval.md",
               "slug": "/core/reactive/time_interval",
               "permalink": "/docs/core/reactive/time_interval",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/time_interval.md",
@@ -613,7 +690,7 @@
               "isDocsHomePage": false,
               "title": "Zip",
               "description": "Category: Combinator",
-              "source": "@site/docs/core/reactive/zip.md",
+              "source": "@site/docs\\core\\reactive\\zip.md",
               "slug": "/core/reactive/zip",
               "permalink": "/docs/core/reactive/zip",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/reactive/zip.md",
@@ -629,57 +706,15 @@
               }
             },
             {
-              "unversionedId": "fundamentals/daqmx_integration",
-              "id": "fundamentals/daqmx_integration",
+              "unversionedId": "fundamentals/daqmx/analog_input",
+              "id": "fundamentals/daqmx/analog_input",
               "isDocsHomePage": false,
-              "title": "Interfacing with NI-DAQ Devices",
-              "description": "Requires:",
-              "source": "@site/docs/fundamentals/daqmx_integration.md",
-              "slug": "/fundamentals/daqmx_integration",
-              "permalink": "/docs/fundamentals/daqmx_integration",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx_integration.md",
-              "version": "current",
-              "sidebar": "docs",
-              "previous": {
-                "title": "Writing Data to Files",
-                "permalink": "/docs/fundamentals/data_writers"
-              },
-              "next": {
-                "title": "Writing Documentation",
-                "permalink": "/docs/meta/writing_docs"
-              }
-            },
-            {
-              "unversionedId": "fundamentals/data_writers",
-              "id": "fundamentals/data_writers",
-              "isDocsHomePage": false,
-              "title": "Writing Data to Files",
-              "description": "VideoWriter \\sink",
-              "source": "@site/docs/fundamentals/data_writers.md",
-              "slug": "/fundamentals/data_writers",
-              "permalink": "/docs/fundamentals/data_writers",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/data_writers.md",
-              "version": "current",
-              "sidebar": "docs",
-              "previous": {
-                "title": "Acquiring Video",
-                "permalink": "/docs/fundamentals/video_acquisition"
-              },
-              "next": {
-                "title": "Interfacing with NI-DAQ Devices",
-                "permalink": "/docs/fundamentals/daqmx_integration"
-              }
-            },
-            {
-              "unversionedId": "fundamentals/video_acquisition",
-              "id": "fundamentals/video_acquisition",
-              "isDocsHomePage": false,
-              "title": "Acquiring Video",
-              "description": "Basler cameras",
-              "source": "@site/docs/fundamentals/video_acquisition.md",
-              "slug": "/fundamentals/video_acquisition",
-              "permalink": "/docs/fundamentals/video_acquisition",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video_acquisition.md",
+              "title": "AnalogInput",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\daqmx\\analog_input.md",
+              "slug": "/fundamentals/daqmx/analog_input",
+              "permalink": "/docs/fundamentals/daqmx/analog_input",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx/analog_input.md",
               "version": "current",
               "sidebar": "docs",
               "previous": {
@@ -687,8 +722,197 @@
                 "permalink": "/docs/core/expressions/bitwise_not"
               },
               "next": {
-                "title": "Writing Data to Files",
-                "permalink": "/docs/fundamentals/data_writers"
+                "title": "AnalogOutput",
+                "permalink": "/docs/fundamentals/daqmx/analog_output"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/daqmx/analog_output",
+              "id": "fundamentals/daqmx/analog_output",
+              "isDocsHomePage": false,
+              "title": "AnalogOutput",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\daqmx\\analog_output.md",
+              "slug": "/fundamentals/daqmx/analog_output",
+              "permalink": "/docs/fundamentals/daqmx/analog_output",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx/analog_output.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "AnalogInput",
+                "permalink": "/docs/fundamentals/daqmx/analog_input"
+              },
+              "next": {
+                "title": "DigitalOutput",
+                "permalink": "/docs/fundamentals/daqmx/digital_output"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/daqmx/digital_output",
+              "id": "fundamentals/daqmx/digital_output",
+              "isDocsHomePage": false,
+              "title": "DigitalOutput",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\daqmx\\digital_output.md",
+              "slug": "/fundamentals/daqmx/digital_output",
+              "permalink": "/docs/fundamentals/daqmx/digital_output",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx/digital_output.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "AnalogOutput",
+                "permalink": "/docs/fundamentals/daqmx/analog_output"
+              },
+              "next": {
+                "title": "FunctionGenerator",
+                "permalink": "/docs/fundamentals/dsp/function_generator"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/dsp/function_generator",
+              "id": "fundamentals/dsp/function_generator",
+              "isDocsHomePage": false,
+              "title": "FunctionGenerator",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\dsp\\function_generator.md",
+              "slug": "/fundamentals/dsp/function_generator",
+              "permalink": "/docs/fundamentals/dsp/function_generator",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/dsp/function_generator.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "DigitalOutput",
+                "permalink": "/docs/fundamentals/daqmx/digital_output"
+              },
+              "next": {
+                "title": "MatrixWriter",
+                "permalink": "/docs/fundamentals/dsp/matrix_writer"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/dsp/matrix_writer",
+              "id": "fundamentals/dsp/matrix_writer",
+              "isDocsHomePage": false,
+              "title": "MatrixWriter",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\dsp\\matrix_writer.md",
+              "slug": "/fundamentals/dsp/matrix_writer",
+              "permalink": "/docs/fundamentals/dsp/matrix_writer",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/dsp/matrix_writer.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "FunctionGenerator",
+                "permalink": "/docs/fundamentals/dsp/function_generator"
+              },
+              "next": {
+                "title": "CsvWriter",
+                "permalink": "/docs/fundamentals/io/csv_writer"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/io/csv_writer",
+              "id": "fundamentals/io/csv_writer",
+              "isDocsHomePage": false,
+              "title": "CsvWriter",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\io\\csv_writer.md",
+              "slug": "/fundamentals/io/csv_writer",
+              "permalink": "/docs/fundamentals/io/csv_writer",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/io/csv_writer.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "MatrixWriter",
+                "permalink": "/docs/fundamentals/dsp/matrix_writer"
+              },
+              "next": {
+                "title": "PylonCapture",
+                "permalink": "/docs/fundamentals/pylon/pylon_capture"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/pylon/pylon_capture",
+              "id": "fundamentals/pylon/pylon_capture",
+              "isDocsHomePage": false,
+              "title": "PylonCapture",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\pylon\\pylon_capture.md",
+              "slug": "/fundamentals/pylon/pylon_capture",
+              "permalink": "/docs/fundamentals/pylon/pylon_capture",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/pylon/pylon_capture.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "CsvWriter",
+                "permalink": "/docs/fundamentals/io/csv_writer"
+              },
+              "next": {
+                "title": "SpinnakerCapture",
+                "permalink": "/docs/fundamentals/spinnaker/spinnaker_capture"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/spinnaker/spinnaker_capture",
+              "id": "fundamentals/spinnaker/spinnaker_capture",
+              "isDocsHomePage": false,
+              "title": "SpinnakerCapture",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\spinnaker\\spinnaker_capture.md",
+              "slug": "/fundamentals/spinnaker/spinnaker_capture",
+              "permalink": "/docs/fundamentals/spinnaker/spinnaker_capture",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/spinnaker/spinnaker_capture.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "PylonCapture",
+                "permalink": "/docs/fundamentals/pylon/pylon_capture"
+              },
+              "next": {
+                "title": "CameraCapture",
+                "permalink": "/docs/fundamentals/video/camera_capture"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/video/camera_capture",
+              "id": "fundamentals/video/camera_capture",
+              "isDocsHomePage": false,
+              "title": "CameraCapture",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\video\\camera_capture.md",
+              "slug": "/fundamentals/video/camera_capture",
+              "permalink": "/docs/fundamentals/video/camera_capture",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video/camera_capture.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "SpinnakerCapture",
+                "permalink": "/docs/fundamentals/spinnaker/spinnaker_capture"
+              },
+              "next": {
+                "title": "VideoWriter",
+                "permalink": "/docs/fundamentals/video/video_writer"
+              }
+            },
+            {
+              "unversionedId": "fundamentals/video/video_writer",
+              "id": "fundamentals/video/video_writer",
+              "isDocsHomePage": false,
+              "title": "VideoWriter",
+              "description": "Prerequisites:",
+              "source": "@site/docs\\fundamentals\\video\\video_writer.md",
+              "slug": "/fundamentals/video/video_writer",
+              "permalink": "/docs/fundamentals/video/video_writer",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video/video_writer.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "CameraCapture",
+                "permalink": "/docs/fundamentals/video/camera_capture"
+              },
+              "next": {
+                "title": "Writing Documentation",
+                "permalink": "/docs/meta/writing_docs"
               }
             },
             {
@@ -697,7 +921,7 @@
               "isDocsHomePage": false,
               "title": "What is Bonsai?",
               "description": "Bonsai is a visual language for reactive programming built on top of ReactiveX.",
-              "source": "@site/docs/getting_started/getting_started.md",
+              "source": "@site/docs\\getting_started\\getting_started.md",
               "slug": "/",
               "permalink": "/docs/",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started/getting_started.md",
@@ -714,7 +938,7 @@
               "isDocsHomePage": false,
               "title": "Installing Bonsai",
               "description": "A quick start guide to installing and running the Bonsai editor.",
-              "source": "@site/docs/getting_started/installation.md",
+              "source": "@site/docs\\getting_started\\installation.md",
               "slug": "/getting_started/installation",
               "permalink": "/docs/getting_started/installation",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/getting_started/installation.md",
@@ -735,7 +959,7 @@
               "isDocsHomePage": false,
               "title": "Creating Packages",
               "description": "The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the Visual Studio development environment.",
-              "source": "@site/docs/meta/create_package.md",
+              "source": "@site/docs\\meta\\create_package.md",
               "slug": "/meta/creating_packages",
               "permalink": "/docs/meta/creating_packages",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/create_package.md",
@@ -752,15 +976,15 @@
               "isDocsHomePage": false,
               "title": "Writing Documentation",
               "description": "How do develop a doc page",
-              "source": "@site/docs/meta/writing_docs.md",
+              "source": "@site/docs\\meta\\writing_docs.md",
               "slug": "/meta/writing_docs",
               "permalink": "/docs/meta/writing_docs",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/writing_docs.md",
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Interfacing with NI-DAQ Devices",
-                "permalink": "/docs/fundamentals/daqmx_integration"
+                "title": "VideoWriter",
+                "permalink": "/docs/fundamentals/video/video_writer"
               },
               "next": {
                 "title": "Creating Packages",
@@ -780,9 +1004,9 @@
           "metadata": {
             "permalink": "/blog/first_post",
             "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/blog/first_post.md",
-            "source": "@site/blog/first_post.md",
+            "source": "@site/blog\\first_post.md",
             "description": "Powered by Docusaurus, we can leverage the growing Bonsai community to document core elements of Reactive and Bonsai, how people are using Bonsai, new packages being developed, and everything else that's going on.",
-            "date": "2020-12-18T01:45:48.930Z",
+            "date": "2020-12-18T12:09:47.365Z",
             "tags": [],
             "title": "Crowdsourced Documentation!",
             "readingTime": 0.2,
@@ -817,7 +1041,7 @@
       {
         "type": "jsx",
         "permalink": "/",
-        "source": "@site/src/pages/index.js"
+        "source": "@site/src\\pages\\index.js"
       }
     ]
   },

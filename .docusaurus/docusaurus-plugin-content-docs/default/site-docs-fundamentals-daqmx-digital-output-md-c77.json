@@ -1,0 +1,21 @@
+{
+  "unversionedId": "fundamentals/daqmx/digital_output",
+  "id": "fundamentals/daqmx/digital_output",
+  "isDocsHomePage": false,
+  "title": "DigitalOutput",
+  "description": "Prerequisites:",
+  "source": "@site/docs\\fundamentals\\daqmx\\digital_output.md",
+  "slug": "/fundamentals/daqmx/digital_output",
+  "permalink": "/docs/fundamentals/daqmx/digital_output",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx/digital_output.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "AnalogOutput",
+    "permalink": "/docs/fundamentals/daqmx/analog_output"
+  },
+  "next": {
+    "title": "FunctionGenerator",
+    "permalink": "/docs/fundamentals/dsp/function_generator"
+  }
+}

@@ -15,7 +15,7 @@
     "permalink": "/docs/core/reactive/zip"
   },
   "next": {
-    "title": "Acquiring Video",
-    "permalink": "/docs/fundamentals/video_acquisition"
+    "title": "AnalogInput",
+    "permalink": "/docs/fundamentals/daqmx/analog_input"
   }
 }

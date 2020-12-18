@@ -101,7 +101,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
+          "sidebarPath": "C:\\Users\\zanem\\bonsai-rx-docs\\sidebars.js",
           "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/"
         },
         "blog": {
@@ -109,7 +109,7 @@ export default {
           "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/spencerw/Documents/bonsai-rx-docs/src/css/custom.css"
+          "customCss": "C:\\Users\\zanem\\bonsai-rx-docs\\src\\css\\custom.css"
         }
       }
     ]

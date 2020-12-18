@@ -1,0 +1,21 @@
+{
+  "unversionedId": "concepts/packages",
+  "id": "concepts/packages",
+  "isDocsHomePage": false,
+  "title": "Package Manager",
+  "description": "Bonsai can be extended by installing software packages containing operators designed for specific tasks, such as video processing or OpenGL shaders.",
+  "source": "@site/docs\\concepts\\packages.md",
+  "slug": "/concepts/packages",
+  "permalink": "/docs/concepts/packages",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/packages.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Operators",
+    "permalink": "/docs/concepts/operators"
+  },
+  "next": {
+    "title": "Subjects",
+    "permalink": "/docs/concepts/subjects"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "concepts/editor",
+  "id": "concepts/editor",
+  "isDocsHomePage": false,
+  "title": "Workflow Editor",
+  "description": "A quick introduction to the Bonsai workflow editor.",
+  "source": "@site/docs\\concepts\\editor.md",
+  "slug": "/concepts/editor",
+  "permalink": "/docs/concepts/editor",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/editor.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installing Bonsai",
+    "permalink": "/docs/getting_started/installation"
+  },
+  "next": {
+    "title": "Bonsai Gallery",
+    "permalink": "/docs/concepts/gallery"
+  }
+}

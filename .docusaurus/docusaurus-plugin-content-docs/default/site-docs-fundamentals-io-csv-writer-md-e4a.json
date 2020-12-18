@@ -1,0 +1,21 @@
+{
+  "unversionedId": "fundamentals/io/csv_writer",
+  "id": "fundamentals/io/csv_writer",
+  "isDocsHomePage": false,
+  "title": "CsvWriter",
+  "description": "Prerequisites:",
+  "source": "@site/docs\\fundamentals\\io\\csv_writer.md",
+  "slug": "/fundamentals/io/csv_writer",
+  "permalink": "/docs/fundamentals/io/csv_writer",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/io/csv_writer.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "MatrixWriter",
+    "permalink": "/docs/fundamentals/dsp/matrix_writer"
+  },
+  "next": {
+    "title": "PylonCapture",
+    "permalink": "/docs/fundamentals/pylon/pylon_capture"
+  }
+}

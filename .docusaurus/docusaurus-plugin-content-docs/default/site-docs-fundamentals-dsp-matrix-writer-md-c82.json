@@ -1,0 +1,21 @@
+{
+  "unversionedId": "fundamentals/dsp/matrix_writer",
+  "id": "fundamentals/dsp/matrix_writer",
+  "isDocsHomePage": false,
+  "title": "MatrixWriter",
+  "description": "Prerequisites:",
+  "source": "@site/docs\\fundamentals\\dsp\\matrix_writer.md",
+  "slug": "/fundamentals/dsp/matrix_writer",
+  "permalink": "/docs/fundamentals/dsp/matrix_writer",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/dsp/matrix_writer.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "FunctionGenerator",
+    "permalink": "/docs/fundamentals/dsp/function_generator"
+  },
+  "next": {
+    "title": "CsvWriter",
+    "permalink": "/docs/fundamentals/io/csv_writer"
+  }
+}

@@ -17,8 +17,7 @@ module.exports = {
 		{
 		"type": "category",
 		"label": "Reactive",
-		"items": [
-			"core/reactive/amb",
+		"items": ["core/reactive/amb",
 			"core/reactive/combine_latest",
 			"core/reactive/concat",
 			"core/reactive/distinct_until_changed",
@@ -36,9 +35,43 @@ module.exports = {
 		"items": ["core/expressions/bitwise_not"]
 		}
 	],
-	"Workflow Fundamentals" : ["fundamentals/video_acquisition",
-							   "fundamentals/data_writers",
-							   "fundamentals/daqmx_integration"],
+	"Workflow Fundamentals" : 
+	[
+		{
+		"type": "category",
+		"label": "DAQmx",
+		"items": ["fundamentals/daqmx/analog_input",
+			"fundamentals/daqmx/analog_output",
+			"fundamentals/daqmx/digital_output"]
+		},
+		{
+		"type": "category",
+		"label": "Dsp",
+		"items": ["fundamentals/dsp/function_generator",
+			"fundamentals/dsp/matrix_writer"]
+		},
+		{
+		"type": "category",
+		"label": "IO",
+		"items": ["fundamentals/io/csv_writer"]
+		},
+		{
+		"type": "category",
+		"label": "Pylon",
+		"items": ["fundamentals/pylon/pylon_capture"]
+		},
+		{
+		"type": "category",
+		"label": "Spinnaker",
+		"items": ["fundamentals/spinnaker/spinnaker_capture"]
+		},
+		{
+		"type": "category",
+		"label": "Video",
+		"items": ["fundamentals/video/camera_capture",
+			"fundamentals/video/video_writer"]
+		}	
+	],
 	"Advanced Topics" : [],
 	"How to Contribute" : ["meta/writing_docs",
 						   "meta/creating_packages",

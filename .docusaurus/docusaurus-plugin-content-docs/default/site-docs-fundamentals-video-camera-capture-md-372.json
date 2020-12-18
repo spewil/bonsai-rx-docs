@@ -1,0 +1,21 @@
+{
+  "unversionedId": "fundamentals/video/camera_capture",
+  "id": "fundamentals/video/camera_capture",
+  "isDocsHomePage": false,
+  "title": "CameraCapture",
+  "description": "Prerequisites:",
+  "source": "@site/docs\\fundamentals\\video\\camera_capture.md",
+  "slug": "/fundamentals/video/camera_capture",
+  "permalink": "/docs/fundamentals/video/camera_capture",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/video/camera_capture.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "SpinnakerCapture",
+    "permalink": "/docs/fundamentals/spinnaker/spinnaker_capture"
+  },
+  "next": {
+    "title": "VideoWriter",
+    "permalink": "/docs/fundamentals/video/video_writer"
+  }
+}
