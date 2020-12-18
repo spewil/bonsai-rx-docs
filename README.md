@@ -46,12 +46,14 @@ See instructions [here](https://github.com/spewil/bonsai-rx-docs/blob/main/docs/
 
 - move to bonsai repo
 - test versioning for old/new bonsai versions
-- Add Install link which reflects newest version
+- add Install link which reflects newest version
 - get search working!
 - fix all the general config links
 - tweak styling everywhere
 - document style guide for writing new pages
 - edit `Fundamentals` for style
+- figure out underscore-ignore for markdown files
+- add a check for `sidebar.js` based on `docs` files
 
 # Yarn Resources
 
