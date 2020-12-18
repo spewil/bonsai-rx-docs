@@ -40,9 +40,14 @@ Coming soon!
 
 # TODO
 
-- Tweak styling everywhere
-- Document node style guide
-- Edit `Fundamentals` for style
+- move to bonsai repo
+- test versioning for old/new bonsai versions
+- Add Install link which reflects newest version
+- get search working!
+- fix all the general config links
+- tweak styling everywhere
+- document style guide for writing new pages
+- edit `Fundamentals` for style
 
 # Yarn Resources
 
