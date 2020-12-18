@@ -1,8 +1,6 @@
 ---
 title: "Bonsai Gallery"
-permalink: /docs/gallery/
-excerpt: "An overview of the built-in workflow gallery."
-last_modified_at:
+id: gallery
 ---
 
 A good way to get started with Bonsai is to look at some examples. The editor includes a built-in gallery of example workflows for running common tasks you might want to do with Bonsai. You can access the gallery via the `Tools` menu of the workflow editor.

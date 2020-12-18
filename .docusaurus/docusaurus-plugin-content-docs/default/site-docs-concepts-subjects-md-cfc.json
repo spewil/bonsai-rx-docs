@@ -1,0 +1,21 @@
+{
+  "unversionedId": "concepts/subjects",
+  "id": "concepts/subjects",
+  "isDocsHomePage": false,
+  "title": "Subjects",
+  "description": "Subjects are a special type of operator that allows reusing and sharing of observable sequences. A subject acts as a bridge or proxy; it will subscribe to an observable sequence and reemit all items it receives to downstream operators. Subjects play a role similar to branches by allowing multiple operators to subscribe to a single observable sequence.",
+  "source": "@site/docs/concepts/subjects.md",
+  "slug": "/concepts/subjects",
+  "permalink": "/docs/concepts/subjects",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/subjects.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Package Manager",
+    "permalink": "/docs/concepts/packages"
+  },
+  "next": {
+    "title": "Amb",
+    "permalink": "/docs/core/reactive/amb"
+  }
+}

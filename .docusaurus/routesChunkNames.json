@@ -25,7 +25,7 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/docs-b24": {
+  "/docs-d20": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -40,6 +40,30 @@
   "/docs/concepts/gallery-969": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-concepts-galleryfec-781"
+  },
+  "/docs/concepts/higher_order-403": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-higher-order-4-e-3-a31"
+  },
+  "/docs/concepts/observables-f03": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-observablesb-95-428"
+  },
+  "/docs/concepts/operators-b01": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-operatorsc-65-df9"
+  },
+  "/docs/concepts/packages-9f7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-packages-48-c-c38"
+  },
+  "/docs/concepts/property_mapping-121": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-property-mapping-0-ec-99c"
+  },
+  "/docs/concepts/subjects-a46": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-concepts-subjectscfc-4d0"
   },
   "/docs/core/expressions/bitwise_not-772": {
     "component": "component---theme-doc-item-178-a40",
@@ -105,8 +129,16 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-getting-started-installationf-27-211"
   },
-  "/docs/meta/style_guide-e3e": {
+  "/docs/meta/create_package-d3a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-meta-style-guided-03-7d0"
+    "content": "content---docs-meta-create-packagef-54-3fb"
+  },
+  "/docs/meta/developing_docs-c59": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-meta-developing-docs-2-b-9-bc6"
+  },
+  "/docs/meta/writing_docs-c22": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-meta-writing-docs-41-d-51d"
   }
 }

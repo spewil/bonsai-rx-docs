@@ -15,7 +15,7 @@
     "permalink": "/docs/concepts/editor"
   },
   "next": {
-    "title": "Amb",
-    "permalink": "/docs/core/reactive/amb"
+    "title": "Observables",
+    "permalink": "/docs/concepts/observables"
   }
 }

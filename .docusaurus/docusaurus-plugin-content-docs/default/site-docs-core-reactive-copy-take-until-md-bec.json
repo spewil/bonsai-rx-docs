@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/Reactive copy/take_until",
+  "id": "core/Reactive copy/take_until",
+  "isDocsHomePage": false,
+  "title": "TakeUntil",
+  "description": "Category: Combinator (filtering)",
+  "source": "@site/docs/core/Reactive copy/take_until.md",
+  "slug": "/core/Reactive copy/take_until",
+  "permalink": "/docs/core/Reactive copy/take_until",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/Reactive copy/take_until.md",
+  "version": "current"
+}

@@ -21,6 +21,36 @@
               "sidebar": "docs"
             },
             {
+              "id": "concepts/higher_order",
+              "path": "/docs/concepts/higher_order",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/observables",
+              "path": "/docs/concepts/observables",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/operators",
+              "path": "/docs/concepts/operators",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/packages",
+              "path": "/docs/concepts/packages",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/property_mapping",
+              "path": "/docs/concepts/property_mapping",
+              "sidebar": "docs"
+            },
+            {
+              "id": "concepts/subjects",
+              "path": "/docs/concepts/subjects",
+              "sidebar": "docs"
+            },
+            {
               "id": "core/expressions/bitwise_not",
               "path": "/docs/core/expressions/bitwise_not",
               "sidebar": "docs"
@@ -104,8 +134,17 @@
               "sidebar": "docs"
             },
             {
-              "id": "meta/style_guide",
-              "path": "/docs/meta/style_guide",
+              "id": "meta/create_package",
+              "path": "/docs/meta/create_package"
+            },
+            {
+              "id": "meta/developing_docs",
+              "path": "/docs/meta/developing_docs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "meta/writing_docs",
+              "path": "/docs/meta/writing_docs",
               "sidebar": "docs"
             }
           ]

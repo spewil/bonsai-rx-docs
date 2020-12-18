@@ -1,0 +1,21 @@
+{
+  "unversionedId": "concepts/observables",
+  "id": "concepts/observables",
+  "isDocsHomePage": false,
+  "title": "Observables",
+  "description": "Bonsai makes use of a unified model for asynchronous data streams: the observable sequence. This model was introduced by the popular ReactiveX framework. Our favorite approach to explain what exactly is an observable sequence is to use a metaphor.",
+  "source": "@site/docs/concepts/observables.md",
+  "slug": "/concepts/observables",
+  "permalink": "/docs/concepts/observables",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/observables.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bonsai Gallery",
+    "permalink": "/docs/concepts/gallery"
+  },
+  "next": {
+    "title": "Property Mapping",
+    "permalink": "/docs/concepts/property_mapping"
+  }
+}

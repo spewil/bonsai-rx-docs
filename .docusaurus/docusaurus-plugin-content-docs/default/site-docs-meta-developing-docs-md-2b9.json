@@ -1,0 +1,16 @@
+{
+  "unversionedId": "meta/developing_docs",
+  "id": "meta/developing_docs",
+  "isDocsHomePage": false,
+  "title": "Developing Pages",
+  "source": "@site/docs/meta/developing_docs.md",
+  "slug": "/meta/developing_docs",
+  "permalink": "/docs/meta/developing_docs",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/developing_docs.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Writing Documentation",
+    "permalink": "/docs/meta/writing_docs"
+  }
+}

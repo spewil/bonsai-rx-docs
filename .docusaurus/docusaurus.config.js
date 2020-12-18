@@ -1,6 +1,6 @@
 export default {
-  "title": "bonsai-rx documentation",
-  "tagline": "node problem",
+  "title": "Bonsai-rx Documentation",
+  "tagline": "This page will go away when we merge with the Bonsai site.",
   "url": "https://spewil.github.io",
   "baseUrl": "/",
   "onBrokenLinks": "warn",
@@ -10,7 +10,7 @@ export default {
   "projectName": "spewil.github.io",
   "themeConfig": {
     "navbar": {
-      "title": "bonsai-rx documentation",
+      "title": "bonsai-rx docs",
       "logo": {
         "alt": "bonsai-rx Logo",
         "src": "img/logo.svg"
@@ -51,10 +51,6 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
               "label": "Discord",
               "href": "https://discordapp.com/invite/docusaurus"
             },
@@ -78,7 +74,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2020 My Project, Inc. Built with Docusaurus."
+      "copyright": "Built with Docusaurus. (2020)"
     },
     "colorMode": {
       "defaultMode": "light",
@@ -105,7 +101,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/spencerw/Downloads/docs_test/bonsai-rx-docs/sidebars.js",
+          "sidebarPath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
           "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/"
         },
         "blog": {
@@ -113,7 +109,7 @@ export default {
           "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/spencerw/Downloads/docs_test/bonsai-rx-docs/src/css/custom.css"
+          "customCss": "/Users/spencerw/Documents/bonsai-rx-docs/src/css/custom.css"
         }
       }
     ]

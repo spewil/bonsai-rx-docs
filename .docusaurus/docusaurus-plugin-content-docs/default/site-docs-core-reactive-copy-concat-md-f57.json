@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/Reactive copy/concat",
+  "id": "core/Reactive copy/concat",
+  "isDocsHomePage": false,
+  "title": "Concat",
+  "description": "Category: Combinator",
+  "source": "@site/docs/core/Reactive copy/concat.md",
+  "slug": "/core/Reactive copy/concat",
+  "permalink": "/docs/core/Reactive copy/concat",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/Reactive copy/concat.md",
+  "version": "current"
+}

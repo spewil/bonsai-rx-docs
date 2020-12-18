@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/Expressions copy/bitwise_not",
+  "id": "core/Expressions copy/bitwise_not",
+  "isDocsHomePage": false,
+  "title": "BitwiseNot",
+  "description": "Category: Transform",
+  "source": "@site/docs/core/Expressions copy/bitwise_not.md",
+  "slug": "/core/Expressions copy/bitwise_not",
+  "permalink": "/docs/core/Expressions copy/bitwise_not",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/Expressions copy/bitwise_not.md",
+  "version": "current"
+}

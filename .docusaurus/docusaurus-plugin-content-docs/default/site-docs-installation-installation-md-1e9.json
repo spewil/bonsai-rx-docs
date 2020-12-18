@@ -1,0 +1,21 @@
+{
+  "unversionedId": "installation/installation",
+  "id": "installation/installation",
+  "isDocsHomePage": false,
+  "title": "Installing Bonsai",
+  "description": "A quick start guide to installing and running the Bonsai editor.",
+  "source": "@site/docs/installation/installation.md",
+  "slug": "/installation/installation",
+  "permalink": "/docs/installation/installation",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/installation/installation.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "What is Bonsai?",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Workflow Editor",
+    "permalink": "/docs/concepts/editor"
+  }
+}

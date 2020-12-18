@@ -44,7 +44,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','b24'),
+  component: ComponentCreator('/docs','d20'),
   
   routes: [
 {
@@ -60,6 +60,36 @@ export default [
 {
   path: '/docs/concepts/gallery',
   component: ComponentCreator('/docs/concepts/gallery','969'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/higher_order',
+  component: ComponentCreator('/docs/concepts/higher_order','403'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/observables',
+  component: ComponentCreator('/docs/concepts/observables','f03'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/operators',
+  component: ComponentCreator('/docs/concepts/operators','b01'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/packages',
+  component: ComponentCreator('/docs/concepts/packages','9f7'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/property_mapping',
+  component: ComponentCreator('/docs/concepts/property_mapping','121'),
+  exact: true,
+},
+{
+  path: '/docs/concepts/subjects',
+  component: ComponentCreator('/docs/concepts/subjects','a46'),
   exact: true,
 },
 {
@@ -143,8 +173,18 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/meta/style_guide',
-  component: ComponentCreator('/docs/meta/style_guide','e3e'),
+  path: '/docs/meta/create_package',
+  component: ComponentCreator('/docs/meta/create_package','d3a'),
+  exact: true,
+},
+{
+  path: '/docs/meta/developing_docs',
+  component: ComponentCreator('/docs/meta/developing_docs','c59'),
+  exact: true,
+},
+{
+  path: '/docs/meta/writing_docs',
+  component: ComponentCreator('/docs/meta/writing_docs','c22'),
   exact: true,
 },
 ]

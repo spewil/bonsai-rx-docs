@@ -8,8 +8,8 @@
           "versionPath": "/docs",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/spencerw/Downloads/docs_test/bonsai-rx-docs/sidebars.js",
-          "docsDirPath": "/Users/spencerw/Downloads/docs_test/bonsai-rx-docs/docs",
+          "sidebarFilePath": "/Users/spencerw/Documents/bonsai-rx-docs/sidebars.js",
+          "docsDirPath": "/Users/spencerw/Documents/bonsai-rx-docs/docs",
           "mainDocId": "getting_started/getting_started",
           "sidebars": {
             "docs": [
@@ -40,6 +40,30 @@
                   {
                     "type": "doc",
                     "id": "concepts/gallery"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/observables"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/property_mapping"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/higher_order"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/operators"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/packages"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts/subjects"
                   }
                 ]
               },
@@ -126,11 +150,21 @@
               {
                 "collapsed": true,
                 "type": "category",
+                "label": "Advanced Topics",
+                "items": []
+              },
+              {
+                "collapsed": true,
+                "type": "category",
                 "label": "How to Contribute",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "meta/style_guide"
+                    "id": "meta/writing_docs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "meta/developing_docs"
                   }
                 ]
               }
@@ -139,6 +173,12 @@
           "permalinkToSidebar": {
             "/docs/concepts/editor": "docs",
             "/docs/concepts/gallery": "docs",
+            "/docs/concepts/higher_order": "docs",
+            "/docs/concepts/observables": "docs",
+            "/docs/concepts/operators": "docs",
+            "/docs/concepts/packages": "docs",
+            "/docs/concepts/property_mapping": "docs",
+            "/docs/concepts/subjects": "docs",
             "/docs/core/expressions/bitwise_not": "docs",
             "/docs/core/reactive/amb": "docs",
             "/docs/core/reactive/combine_latest": "docs",
@@ -154,7 +194,8 @@
             "/docs/fundamentals/video_acquisition": "docs",
             "/docs/": "docs",
             "/docs/getting_started/installation": "docs",
-            "/docs/meta/style_guide": "docs"
+            "/docs/meta/developing_docs": "docs",
+            "/docs/meta/writing_docs": "docs"
           },
           "docs": [
             {
@@ -195,6 +236,132 @@
                 "permalink": "/docs/concepts/editor"
               },
               "next": {
+                "title": "Observables",
+                "permalink": "/docs/concepts/observables"
+              }
+            },
+            {
+              "unversionedId": "concepts/higher_order",
+              "id": "concepts/higher_order",
+              "isDocsHomePage": false,
+              "title": "Higher Order Operators",
+              "description": "In most cases, when building simple reactive systems, it is enough to place a source for every device or every file you are accessing, as well as a set of transforms, sinks and combinators representing all the operations you need to perform on the data.",
+              "source": "@site/docs/concepts/higher-order.md",
+              "slug": "/concepts/higher_order",
+              "permalink": "/docs/concepts/higher_order",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/higher-order.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Property Mapping",
+                "permalink": "/docs/concepts/property_mapping"
+              },
+              "next": {
+                "title": "Operators",
+                "permalink": "/docs/concepts/operators"
+              }
+            },
+            {
+              "unversionedId": "concepts/observables",
+              "id": "concepts/observables",
+              "isDocsHomePage": false,
+              "title": "Observables",
+              "description": "Bonsai makes use of a unified model for asynchronous data streams: the observable sequence. This model was introduced by the popular ReactiveX framework. Our favorite approach to explain what exactly is an observable sequence is to use a metaphor.",
+              "source": "@site/docs/concepts/observables.md",
+              "slug": "/concepts/observables",
+              "permalink": "/docs/concepts/observables",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/observables.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Bonsai Gallery",
+                "permalink": "/docs/concepts/gallery"
+              },
+              "next": {
+                "title": "Property Mapping",
+                "permalink": "/docs/concepts/property_mapping"
+              }
+            },
+            {
+              "unversionedId": "concepts/operators",
+              "id": "concepts/operators",
+              "isDocsHomePage": false,
+              "title": "Operators",
+              "description": "{% include toc icon=\"columns\" title=\"Operators\" %}",
+              "source": "@site/docs/concepts/operators.md",
+              "slug": "/concepts/operators",
+              "permalink": "/docs/concepts/operators",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/operators.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Higher Order Operators",
+                "permalink": "/docs/concepts/higher_order"
+              },
+              "next": {
+                "title": "Package Manager",
+                "permalink": "/docs/concepts/packages"
+              }
+            },
+            {
+              "unversionedId": "concepts/packages",
+              "id": "concepts/packages",
+              "isDocsHomePage": false,
+              "title": "Package Manager",
+              "description": "Bonsai can be extended by installing software packages containing operators designed for specific tasks, such as video processing or OpenGL shaders.",
+              "source": "@site/docs/concepts/packages.md",
+              "slug": "/concepts/packages",
+              "permalink": "/docs/concepts/packages",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/packages.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Operators",
+                "permalink": "/docs/concepts/operators"
+              },
+              "next": {
+                "title": "Subjects",
+                "permalink": "/docs/concepts/subjects"
+              }
+            },
+            {
+              "unversionedId": "concepts/property_mapping",
+              "id": "concepts/property_mapping",
+              "isDocsHomePage": false,
+              "title": "Property Mapping",
+              "description": "Each Bonsai operator exposes a set of configuration properties that allow you to parameterize that operator's behaviour. These parameters can be configured manually from the editor Properties panel. However, there are times when you may need to map the properties of an operator dynamically from the output of other observable sequences.",
+              "source": "@site/docs/concepts/property-mapping.md",
+              "slug": "/concepts/property_mapping",
+              "permalink": "/docs/concepts/property_mapping",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/property-mapping.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Observables",
+                "permalink": "/docs/concepts/observables"
+              },
+              "next": {
+                "title": "Higher Order Operators",
+                "permalink": "/docs/concepts/higher_order"
+              }
+            },
+            {
+              "unversionedId": "concepts/subjects",
+              "id": "concepts/subjects",
+              "isDocsHomePage": false,
+              "title": "Subjects",
+              "description": "Subjects are a special type of operator that allows reusing and sharing of observable sequences. A subject acts as a bridge or proxy; it will subscribe to an observable sequence and reemit all items it receives to downstream operators. Subjects play a role similar to branches by allowing multiple operators to subscribe to a single observable sequence.",
+              "source": "@site/docs/concepts/subjects.md",
+              "slug": "/concepts/subjects",
+              "permalink": "/docs/concepts/subjects",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/concepts/subjects.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Package Manager",
+                "permalink": "/docs/concepts/packages"
+              },
+              "next": {
                 "title": "Amb",
                 "permalink": "/docs/core/reactive/amb"
               }
@@ -233,8 +400,8 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Bonsai Gallery",
-                "permalink": "/docs/concepts/gallery"
+                "title": "Subjects",
+                "permalink": "/docs/concepts/subjects"
               },
               "next": {
                 "title": "CombineLatest",
@@ -492,8 +659,8 @@
                 "permalink": "/docs/core/expressions/bitwise_not"
               },
               "next": {
-                "title": "Style Guide",
-                "permalink": "/docs/meta/style_guide"
+                "title": "Writing Documentation",
+                "permalink": "/docs/meta/writing_docs"
               }
             },
             {
@@ -535,20 +702,52 @@
               }
             },
             {
-              "unversionedId": "meta/style_guide",
-              "id": "meta/style_guide",
+              "unversionedId": "meta/create_package",
+              "id": "meta/create_package",
               "isDocsHomePage": false,
-              "title": "Style Guide",
+              "title": "Creating a Package",
+              "description": "The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the Visual Studio{:target=\"_blank\"} development environment.",
+              "source": "@site/docs/meta/create_package.md",
+              "slug": "/meta/create_package",
+              "permalink": "/docs/meta/create_package",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/create_package.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "meta/developing_docs",
+              "id": "meta/developing_docs",
+              "isDocsHomePage": false,
+              "title": "Developing Pages",
+              "source": "@site/docs/meta/developing_docs.md",
+              "slug": "/meta/developing_docs",
+              "permalink": "/docs/meta/developing_docs",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/developing_docs.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Writing Documentation",
+                "permalink": "/docs/meta/writing_docs"
+              }
+            },
+            {
+              "unversionedId": "meta/writing_docs",
+              "id": "meta/writing_docs",
+              "isDocsHomePage": false,
+              "title": "Writing Documentation",
               "description": "You can write content using GitHub-flavored Markdown syntax.",
-              "source": "@site/docs/meta/style_guide.md",
-              "slug": "/meta/style_guide",
-              "permalink": "/docs/meta/style_guide",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/style_guide.md",
+              "source": "@site/docs/meta/writing_docs.md",
+              "slug": "/meta/writing_docs",
+              "permalink": "/docs/meta/writing_docs",
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/writing_docs.md",
               "version": "current",
               "sidebar": "docs",
               "previous": {
                 "title": "Acquiring Video",
                 "permalink": "/docs/fundamentals/video_acquisition"
+              },
+              "next": {
+                "title": "Developing Pages",
+                "permalink": "/docs/meta/developing_docs"
               }
             }
           ]

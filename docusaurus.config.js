@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'bonsai-rx documentation',
-  tagline: 'node problem',
+  title: 'Bonsai-rx Documentation',
+  tagline: 'This page will go away when we merge with the Bonsai site.',
   url: 'https://spewil.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'spewil.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'bonsai-rx documentation',
+      title: 'bonsai-rx docs',
       logo: {
         alt: 'bonsai-rx Logo',
         src: 'img/logo.svg',
@@ -46,10 +46,6 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },
@@ -73,7 +69,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Built with Docusaurus. (${new Date().getFullYear()})`,
     },
   },
   presets: [

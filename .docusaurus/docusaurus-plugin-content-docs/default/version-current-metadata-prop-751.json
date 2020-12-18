@@ -36,6 +36,36 @@
             "type": "link",
             "label": "Bonsai Gallery",
             "href": "/docs/concepts/gallery"
+          },
+          {
+            "type": "link",
+            "label": "Observables",
+            "href": "/docs/concepts/observables"
+          },
+          {
+            "type": "link",
+            "label": "Property Mapping",
+            "href": "/docs/concepts/property_mapping"
+          },
+          {
+            "type": "link",
+            "label": "Higher Order Operators",
+            "href": "/docs/concepts/higher_order"
+          },
+          {
+            "type": "link",
+            "label": "Operators",
+            "href": "/docs/concepts/operators"
+          },
+          {
+            "type": "link",
+            "label": "Package Manager",
+            "href": "/docs/concepts/packages"
+          },
+          {
+            "type": "link",
+            "label": "Subjects",
+            "href": "/docs/concepts/subjects"
           }
         ]
       },
@@ -135,12 +165,23 @@
       {
         "collapsed": true,
         "type": "category",
+        "label": "Advanced Topics",
+        "items": []
+      },
+      {
+        "collapsed": true,
+        "type": "category",
         "label": "How to Contribute",
         "items": [
           {
             "type": "link",
-            "label": "Style Guide",
-            "href": "/docs/meta/style_guide"
+            "label": "Writing Documentation",
+            "href": "/docs/meta/writing_docs"
+          },
+          {
+            "type": "link",
+            "label": "Developing Pages",
+            "href": "/docs/meta/developing_docs"
           }
         ]
       }
@@ -149,6 +190,12 @@
   "permalinkToSidebar": {
     "/docs/concepts/editor": "docs",
     "/docs/concepts/gallery": "docs",
+    "/docs/concepts/higher_order": "docs",
+    "/docs/concepts/observables": "docs",
+    "/docs/concepts/operators": "docs",
+    "/docs/concepts/packages": "docs",
+    "/docs/concepts/property_mapping": "docs",
+    "/docs/concepts/subjects": "docs",
     "/docs/core/expressions/bitwise_not": "docs",
     "/docs/core/reactive/amb": "docs",
     "/docs/core/reactive/combine_latest": "docs",
@@ -164,6 +211,7 @@
     "/docs/fundamentals/video_acquisition": "docs",
     "/docs/": "docs",
     "/docs/getting_started/installation": "docs",
-    "/docs/meta/style_guide": "docs"
+    "/docs/meta/developing_docs": "docs",
+    "/docs/meta/writing_docs": "docs"
   }
 }

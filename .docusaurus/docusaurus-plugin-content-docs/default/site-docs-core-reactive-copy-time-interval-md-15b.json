@@ -1,0 +1,12 @@
+{
+  "unversionedId": "core/Reactive copy/time_interval",
+  "id": "core/Reactive copy/time_interval",
+  "isDocsHomePage": false,
+  "title": "TimeInterval",
+  "description": "Category: Combinator",
+  "source": "@site/docs/core/Reactive copy/time_interval.md",
+  "slug": "/core/Reactive copy/time_interval",
+  "permalink": "/docs/core/Reactive copy/time_interval",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/core/Reactive copy/time_interval.md",
+  "version": "current"
+}

@@ -1,0 +1,12 @@
+{
+  "unversionedId": "meta/create_package",
+  "id": "meta/create_package",
+  "isDocsHomePage": false,
+  "title": "Creating a Package",
+  "description": "The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the Visual Studio{:target=\"_blank\"} development environment.",
+  "source": "@site/docs/meta/create_package.md",
+  "slug": "/meta/create_package",
+  "permalink": "/docs/meta/create_package",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/create_package.md",
+  "version": "current"
+}
