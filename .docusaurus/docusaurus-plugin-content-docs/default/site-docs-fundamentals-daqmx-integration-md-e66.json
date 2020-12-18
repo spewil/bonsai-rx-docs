@@ -1,0 +1,21 @@
+{
+  "unversionedId": "fundamentals/daqmx_integration",
+  "id": "fundamentals/daqmx_integration",
+  "isDocsHomePage": false,
+  "title": "Interfacing with NI-DAQ Devices",
+  "description": "Requires:",
+  "source": "@site/docs/fundamentals/daqmx_integration.md",
+  "slug": "/fundamentals/daqmx_integration",
+  "permalink": "/docs/fundamentals/daqmx_integration",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx_integration.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Writing Data to Files",
+    "permalink": "/docs/fundamentals/data_writers"
+  },
+  "next": {
+    "title": "Writing Documentation",
+    "permalink": "/docs/meta/writing_docs"
+  }
+}

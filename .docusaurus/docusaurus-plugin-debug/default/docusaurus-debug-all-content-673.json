@@ -144,6 +144,14 @@
                   {
                     "type": "doc",
                     "id": "fundamentals/video_acquisition"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/data_writers"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/daqmx_integration"
                   }
                 ]
               },
@@ -191,6 +199,8 @@
             "/docs/core/reactive/take_until": "docs",
             "/docs/core/reactive/time_interval": "docs",
             "/docs/core/reactive/zip": "docs",
+            "/docs/fundamentals/daqmx_integration": "docs",
+            "/docs/fundamentals/data_writers": "docs",
             "/docs/fundamentals/video_acquisition": "docs",
             "/docs/": "docs",
             "/docs/getting_started/installation": "docs",
@@ -624,11 +634,20 @@
               "isDocsHomePage": false,
               "title": "Interfacing with NI-DAQ Devices",
               "description": "Requires:",
-              "source": "@site/docs/fundamentals/nidaq_integration.md",
+              "source": "@site/docs/fundamentals/daqmx_integration.md",
               "slug": "/fundamentals/daqmx_integration",
               "permalink": "/docs/fundamentals/daqmx_integration",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/nidaq_integration.md",
-              "version": "current"
+              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/daqmx_integration.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Writing Data to Files",
+                "permalink": "/docs/fundamentals/data_writers"
+              },
+              "next": {
+                "title": "Writing Documentation",
+                "permalink": "/docs/meta/writing_docs"
+              }
             },
             {
               "unversionedId": "fundamentals/data_writers",
@@ -640,7 +659,16 @@
               "slug": "/fundamentals/data_writers",
               "permalink": "/docs/fundamentals/data_writers",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/fundamentals/data_writers.md",
-              "version": "current"
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Acquiring Video",
+                "permalink": "/docs/fundamentals/video_acquisition"
+              },
+              "next": {
+                "title": "Interfacing with NI-DAQ Devices",
+                "permalink": "/docs/fundamentals/daqmx_integration"
+              }
             },
             {
               "unversionedId": "fundamentals/video_acquisition",
@@ -659,8 +687,8 @@
                 "permalink": "/docs/core/expressions/bitwise_not"
               },
               "next": {
-                "title": "Writing Documentation",
-                "permalink": "/docs/meta/writing_docs"
+                "title": "Writing Data to Files",
+                "permalink": "/docs/fundamentals/data_writers"
               }
             },
             {
@@ -731,8 +759,8 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "Acquiring Video",
-                "permalink": "/docs/fundamentals/video_acquisition"
+                "title": "Interfacing with NI-DAQ Devices",
+                "permalink": "/docs/fundamentals/daqmx_integration"
               },
               "next": {
                 "title": "Creating Packages",

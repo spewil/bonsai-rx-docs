@@ -112,11 +112,13 @@
             },
             {
               "id": "fundamentals/daqmx_integration",
-              "path": "/docs/fundamentals/daqmx_integration"
+              "path": "/docs/fundamentals/daqmx_integration",
+              "sidebar": "docs"
             },
             {
               "id": "fundamentals/data_writers",
-              "path": "/docs/fundamentals/data_writers"
+              "path": "/docs/fundamentals/data_writers",
+              "sidebar": "docs"
             },
             {
               "id": "fundamentals/video_acquisition",

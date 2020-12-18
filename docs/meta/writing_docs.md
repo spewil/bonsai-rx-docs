@@ -7,6 +7,10 @@ title: Writing Documentation
 
 All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). To add pages you'll need to be willing to submit a pull request so your documentation draft can be reviewed and merged into the documentation. Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out for questions.
 
+## Documentation Style Guide
+
+- Each page not in `Tutorials` should reflect the use of a single or handful of nodes
+- The filename of a doc page should be identical to its `id` in the markdown header
 
 # Markdown Cheatsheet
 

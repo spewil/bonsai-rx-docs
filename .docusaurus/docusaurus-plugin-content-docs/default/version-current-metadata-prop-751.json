@@ -159,6 +159,16 @@
             "type": "link",
             "label": "Acquiring Video",
             "href": "/docs/fundamentals/video_acquisition"
+          },
+          {
+            "type": "link",
+            "label": "Writing Data to Files",
+            "href": "/docs/fundamentals/data_writers"
+          },
+          {
+            "type": "link",
+            "label": "Interfacing with NI-DAQ Devices",
+            "href": "/docs/fundamentals/daqmx_integration"
           }
         ]
       },
@@ -208,6 +218,8 @@
     "/docs/core/reactive/take_until": "docs",
     "/docs/core/reactive/time_interval": "docs",
     "/docs/core/reactive/zip": "docs",
+    "/docs/fundamentals/daqmx_integration": "docs",
+    "/docs/fundamentals/data_writers": "docs",
     "/docs/fundamentals/video_acquisition": "docs",
     "/docs/": "docs",
     "/docs/getting_started/installation": "docs",

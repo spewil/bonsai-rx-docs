@@ -38,6 +38,12 @@ This command generates static content into the `build` directory and can be serv
 
 Coming soon!
 
+# TODO
+
+- Tweak styling everywhere
+- Document node style guide
+- Edit `Fundamentals` for style
+
 # Yarn Resources
 
 [Preparing the Docusaurus site.](https://docusaurus.io/docs/en/site-preparation#key-files)

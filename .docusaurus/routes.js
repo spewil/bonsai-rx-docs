@@ -54,7 +54,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','4e7'),
+  component: ComponentCreator('/docs','a63'),
   
   routes: [
 {
@@ -164,7 +164,7 @@ export default [
 },
 {
   path: '/docs/fundamentals/daqmx_integration',
-  component: ComponentCreator('/docs/fundamentals/daqmx_integration','458'),
+  component: ComponentCreator('/docs/fundamentals/daqmx_integration','3c5'),
   exact: true,
 },
 {

@@ -15,7 +15,7 @@
     "permalink": "/docs/core/expressions/bitwise_not"
   },
   "next": {
-    "title": "Writing Documentation",
-    "permalink": "/docs/meta/writing_docs"
+    "title": "Writing Data to Files",
+    "permalink": "/docs/fundamentals/data_writers"
   }
 }

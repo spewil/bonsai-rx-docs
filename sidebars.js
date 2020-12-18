@@ -36,7 +36,9 @@ module.exports = {
 		"items": ["core/expressions/bitwise_not"]
 		}
 	],
-	"Workflow Fundamentals" : ["fundamentals/video_acquisition"],
+	"Workflow Fundamentals" : ["fundamentals/video_acquisition",
+							   "fundamentals/data_writers",
+							   "fundamentals/daqmx_integration"],
 	"Advanced Topics" : [],
 	"How to Contribute" : ["meta/writing_docs",
 						   "meta/creating_packages",
