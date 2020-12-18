@@ -3,11 +3,14 @@ id: writing_docs
 title: Writing Documentation
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+## How do develop a doc page
 
-## Markdown Syntax
+All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). To add pages you'll need to be willing to submit a pull request so your documentation draft can be reviewed and merged into the documentation. Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out for questions.
 
-To serve as an example page when styling markdown based Docusaurus sites.
+
+# Markdown Cheatsheet
+
+You can write content using
 
 ## Headers
 
@@ -73,6 +76,12 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org/
 [1]: http://slashdot.org/
 [link text itself]: http://www.reddit.com/
+
+---
+
+## Internal links
+
+This is a link to [another document.](../fundamentals/video_acquisition) This is a link to an [external page.](http://www.example.com/)
 
 ---
 
@@ -200,11 +209,8 @@ This is a warning
 
 :::
 
-## Internal links
 
-This is a link to [another document.](../fundamentals/video_acquisition) This is a link to an [external page.](http://www.example.com/)
-
-## Javascript
+# Javascript
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
 

@@ -39,7 +39,8 @@ module.exports = {
 	"Workflow Fundamentals" : ["fundamentals/video_acquisition"],
 	"Advanced Topics" : [],
 	"How to Contribute" : ["meta/writing_docs",
-	"meta/developing_docs"],
+						   "meta/creating_packages",
+						   ],
   }
 };
 

@@ -1,0 +1,11 @@
+{
+  "permalink": "/blog/first_post",
+  "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/blog/first_post.md",
+  "source": "@site/blog/first_post.md",
+  "description": "Powered by Docusaurus, we can leverage the growing Bonsai community to document core elements of Reactive and Bonsai, how people are using Bonsai, new packages being developed, and everything else that's going on.",
+  "date": "2020-12-18T01:45:48.930Z",
+  "tags": [],
+  "title": "Crowdsourced Documentation!",
+  "readingTime": 0.2,
+  "truncated": false
+}

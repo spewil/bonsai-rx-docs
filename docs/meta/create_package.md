@@ -1,13 +1,13 @@
 ---
-title: "Creating a Package"
-id: create_package
+title: "Creating Packages"
+id: creating_packages
 ---
 
-The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the [Visual Studio](https://www.visualstudio.com/){:target="_blank"} development environment.
+The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the [Visual Studio](https://www.visualstudio.com/) development environment.
 
 ## Install pre-requisites
 
-1. [Visual Studio](https://www.visualstudio.com/){:target="_blank"}. You can install the Community edition for free.
+1. [Visual Studio](https://www.visualstudio.com/). You can install the Community edition for free.
 2. Bonsai VS Extensions. In the Windows Start Menu, search for the "**Install Bonsai VS Extensions**" shortcut and run it.
 
 ## Create a package project

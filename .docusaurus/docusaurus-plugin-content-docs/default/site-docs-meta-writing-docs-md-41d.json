@@ -3,7 +3,7 @@
   "id": "meta/writing_docs",
   "isDocsHomePage": false,
   "title": "Writing Documentation",
-  "description": "You can write content using GitHub-flavored Markdown syntax.",
+  "description": "How do develop a doc page",
   "source": "@site/docs/meta/writing_docs.md",
   "slug": "/meta/writing_docs",
   "permalink": "/docs/meta/writing_docs",
@@ -15,7 +15,7 @@
     "permalink": "/docs/fundamentals/video_acquisition"
   },
   "next": {
-    "title": "Developing Pages",
-    "permalink": "/docs/meta/developing_docs"
+    "title": "Creating Packages",
+    "permalink": "/docs/meta/creating_packages"
   }
 }

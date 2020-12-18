@@ -43,8 +43,18 @@ export default [
   exact: true,
 },
 {
+  path: '/blog',
+  component: ComponentCreator('/blog','68d'),
+  exact: true,
+},
+{
+  path: '/blog/first_post',
+  component: ComponentCreator('/blog/first_post','25d'),
+  exact: true,
+},
+{
   path: '/docs',
-  component: ComponentCreator('/docs','d20'),
+  component: ComponentCreator('/docs','4e7'),
   
   routes: [
 {
@@ -173,13 +183,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/meta/create_package',
-  component: ComponentCreator('/docs/meta/create_package','d3a'),
-  exact: true,
-},
-{
-  path: '/docs/meta/developing_docs',
-  component: ComponentCreator('/docs/meta/developing_docs','c59'),
+  path: '/docs/meta/creating_packages',
+  component: ComponentCreator('/docs/meta/creating_packages','ce7'),
   exact: true,
 },
 {

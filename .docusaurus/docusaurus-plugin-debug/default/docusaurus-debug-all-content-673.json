@@ -164,7 +164,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "meta/developing_docs"
+                    "id": "meta/creating_packages"
                   }
                 ]
               }
@@ -194,7 +194,7 @@
             "/docs/fundamentals/video_acquisition": "docs",
             "/docs/": "docs",
             "/docs/getting_started/installation": "docs",
-            "/docs/meta/developing_docs": "docs",
+            "/docs/meta/creating_packages": "docs",
             "/docs/meta/writing_docs": "docs"
           },
           "docs": [
@@ -702,26 +702,15 @@
               }
             },
             {
-              "unversionedId": "meta/create_package",
-              "id": "meta/create_package",
+              "unversionedId": "meta/creating_packages",
+              "id": "meta/creating_packages",
               "isDocsHomePage": false,
-              "title": "Creating a Package",
-              "description": "The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the Visual Studio{:target=\"_blank\"} development environment.",
+              "title": "Creating Packages",
+              "description": "The Bonsai language can be easily extended with custom operators, which are installed and shared using assembly packages. These packages are typically written in the C# programming language, using the Visual Studio development environment.",
               "source": "@site/docs/meta/create_package.md",
-              "slug": "/meta/create_package",
-              "permalink": "/docs/meta/create_package",
+              "slug": "/meta/creating_packages",
+              "permalink": "/docs/meta/creating_packages",
               "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/create_package.md",
-              "version": "current"
-            },
-            {
-              "unversionedId": "meta/developing_docs",
-              "id": "meta/developing_docs",
-              "isDocsHomePage": false,
-              "title": "Developing Pages",
-              "source": "@site/docs/meta/developing_docs.md",
-              "slug": "/meta/developing_docs",
-              "permalink": "/docs/meta/developing_docs",
-              "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/docs/meta/developing_docs.md",
               "version": "current",
               "sidebar": "docs",
               "previous": {
@@ -734,7 +723,7 @@
               "id": "meta/writing_docs",
               "isDocsHomePage": false,
               "title": "Writing Documentation",
-              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "description": "How do develop a doc page",
               "source": "@site/docs/meta/writing_docs.md",
               "slug": "/meta/writing_docs",
               "permalink": "/docs/meta/writing_docs",
@@ -746,8 +735,8 @@
                 "permalink": "/docs/fundamentals/video_acquisition"
               },
               "next": {
-                "title": "Developing Pages",
-                "permalink": "/docs/meta/developing_docs"
+                "title": "Creating Packages",
+                "permalink": "/docs/meta/creating_packages"
               }
             }
           ]
@@ -756,7 +745,44 @@
     }
   },
   "docusaurus-plugin-content-blog": {
-    "default": null
+    "default": {
+      "blogPosts": [
+        {
+          "id": "Crowdsourced Documentation!",
+          "metadata": {
+            "permalink": "/blog/first_post",
+            "editUrl": "https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/blog/first_post.md",
+            "source": "@site/blog/first_post.md",
+            "description": "Powered by Docusaurus, we can leverage the growing Bonsai community to document core elements of Reactive and Bonsai, how people are using Bonsai, new packages being developed, and everything else that's going on.",
+            "date": "2020-12-18T01:45:48.930Z",
+            "tags": [],
+            "title": "Crowdsourced Documentation!",
+            "readingTime": 0.2,
+            "truncated": false
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "Crowdsourced Documentation!"
+          ]
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
   },
   "docusaurus-plugin-content-pages": {
     "default": [

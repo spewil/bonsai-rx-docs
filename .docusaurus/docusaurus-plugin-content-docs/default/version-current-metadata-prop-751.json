@@ -180,8 +180,8 @@
           },
           {
             "type": "link",
-            "label": "Developing Pages",
-            "href": "/docs/meta/developing_docs"
+            "label": "Creating Packages",
+            "href": "/docs/meta/creating_packages"
           }
         ]
       }
@@ -211,7 +211,7 @@
     "/docs/fundamentals/video_acquisition": "docs",
     "/docs/": "docs",
     "/docs/getting_started/installation": "docs",
-    "/docs/meta/developing_docs": "docs",
+    "/docs/meta/creating_packages": "docs",
     "/docs/meta/writing_docs": "docs"
   }
 }

@@ -134,12 +134,8 @@
               "sidebar": "docs"
             },
             {
-              "id": "meta/create_package",
-              "path": "/docs/meta/create_package"
-            },
-            {
-              "id": "meta/developing_docs",
-              "path": "/docs/meta/developing_docs",
+              "id": "meta/creating_packages",
+              "path": "/docs/meta/creating_packages",
               "sidebar": "docs"
             },
             {
