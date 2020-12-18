@@ -38,6 +38,10 @@ This command generates static content into the `build` directory and can be serv
 
 Coming soon!
 
+# How to develop new docs
+
+See instructions [here](https://github.com/spewil/bonsai-rx-docs/blob/main/docs/meta/writing_docs.md) for how to contribute.
+
 # TODO
 
 - move to bonsai repo
