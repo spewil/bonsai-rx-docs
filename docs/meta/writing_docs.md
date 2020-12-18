@@ -5,7 +5,25 @@ title: Writing Documentation
 
 ## How do develop a doc page
 
-All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). To add pages you'll need to be willing to submit a pull request so your documentation draft can be reviewed and merged into the documentation. Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out for questions.
+All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). To add pages you'll need to be willing to submit a pull request so your documentation draft can be reviewed and merged into the documentation.
+
+There are two ways
+
+1. If your change is just a typo or additional text, just use the `Edit this page` button on GitHub.
+2. If your change requires a new page or additional files, follow the instructions to edit on your local machine and submit a pull request
+
+Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out for questions.
+
+## How to start working locally using `yarn`
+
+- Install `yarn` on your system
+- Go to the [docs repo](https://github.com/spewil/bonsai-rx-docs)
+- `git clone` the repo and make a new feature branch for your contributions
+- Inside the folder, run `yarn`, this will install packages
+- Run `yarn start` to build and serve the site, this should open a local development server
+- You can now make changes to files in `docs` and the site should update
+- If you want to add a new page, you must add it to the `sidebars.js` file, for more information see [here](https://v2.docusaurus.io/docs/sidebar/)
+- When you're finished editing or ready to show off your new contribution, submit a pull request for your branch on GitHub with an explanation of your changes
 
 ## Documentation Style Guide
 
