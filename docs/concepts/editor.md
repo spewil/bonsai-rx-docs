@@ -34,7 +34,7 @@ Another way to quickly find operators is to use the `Search` textbox. Any text i
 
 ## Workflow
 
-The `Workflow` panel is where you place reactive operators to create data processing pipelines or other asynchronous computations. Each operator in Bonsai is represented by a circular node. Nodes can be connected together, forming a directed feedforward graph from left to right. Connections indicate which operators receive data from which other operators (see the [Introduction](/introduction/) and the [Language Guide](/docs/observables/) for an extended discussion).
+The `Workflow` panel is where you place reactive operators to create data processing pipelines or other asynchronous computations. Each operator in Bonsai is represented by a circular node. Nodes can be connected together, forming a directed feedforward graph from left to right. Connections indicate which operators receive data from which other operators (see the [Language Guide](/docs/concepts/observables/) for an extended discussion).
 
 The most useful action to learn your way around the `Workflow` panel is right-clicking. This will bring up the context menu for the specific node you selected, or a list of possible actions you can do with the current selection:
 
@@ -44,9 +44,9 @@ If only one node is selected, the `Output` menu item will display the type of th
 
 **ProTip:** If the output of an operator is a complex type, you can also inspect its public data members from the context menu. Clicking on any one of these members will automatically place a new `MemberSelector` transform which selects that member from the output.
 
-The context menu also allows you to externalize public properties of the operator into explicit nodes in the workflow, so you can change their values dynamically based on the output of other nodes (see the [Property Mapping](/docs/property-mapping/) section for more information).
+The context menu also allows you to externalize public properties of the operator into explicit nodes in the workflow, so you can change their values dynamically based on the output of other nodes (see the [Property Mapping](/docs/concepts/property-mapping.md) section for more information).
 
-Finally, it is possible to group nodes, both for organizing large workflows, and to define [higher-order operators](/docs/higher-order/). The most basic grouping is the nested workflow which allows you to encapsulate a workflow fragment inside a single node. This `NestedWorkflow` can be assigned a `Name` and `Description` for ease of reference. Any named properties which are externalized by nodes in the group will be shown as properties of the `NestedWorkflow` so you can literally treat the group as a single node.
+Finally, it is possible to group nodes, both for organizing large workflows, and to define [higher-order operators](/docs/concepts/higher-order/). The most basic grouping is the nested workflow which allows you to encapsulate a workflow fragment inside a single node. This `NestedWorkflow` can be assigned a `Name` and `Description` for ease of reference. Any named properties which are externalized by nodes in the group will be shown as properties of the `NestedWorkflow` so you can literally treat the group as a single node.
 
 **ProTip:** You can use `NestedWorkflow` nodes to document your workflow by adding names and descriptions to individual processing branches. No additional processing cost is incurred by the use of `NestedWorkflow` nodes.
 

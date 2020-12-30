@@ -5,7 +5,7 @@ id: higher_order
 
 In most cases, when building simple reactive systems, it is enough to place a source for every device or every file you are accessing, as well as a set of transforms, sinks and combinators representing all the operations you need to perform on the data.
 
-However, sometimes you may need to build systems that deal with an unknown number of sources. For example, imagine you wanted to create a workflow to merge together many video files. If you knew beforehand how many files you will need to combine and where they are exactly located, you might use the [`Concat`](/docs/operators/concat) operator to design a workflow like the following:
+However, sometimes you may need to build systems that deal with an unknown number of sources. For example, imagine you wanted to create a workflow to merge together many video files. If you knew beforehand how many files you will need to combine and where they are exactly located, you might use the [`Concat`](/docs/core/reactive/concat) operator to design a workflow like the following:
 
 ![Concatenate video files using first order operators](../images/concatfile-firstorder.svg)
 

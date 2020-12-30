@@ -103,7 +103,7 @@ Some text to show that the reference links can follow later.
 
 ## Internal links
 
-This is a link to [another document.](../fundamentals/video_acquisition) This is a link to an [external page.](http://www.example.com/)
+This is a link to [another document.](../docs/fundamentals/video/video_writer.md) This is a link to an [external page.](http://www.example.com/)
 
 ---
 
