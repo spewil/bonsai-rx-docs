@@ -18,6 +18,8 @@ title: KeyDown
 
 ---
 
+**Tip**: In most circumstances, `KeyDown` from bonsai Shaders Library is preferable. 
+
 **Tip**: Two `KeyDown` nodes with distinct `Filter` properties can be used to start and stop the output of another observable sequence, such as that produced by `FunctionGenerator` in the example below. `Int` nodes have `Value` parameters set to `1` and `0` to toggle the `Scale` property of `ConvertScale`. 
  
 ![Key press example](images/key_down_workflow_example.svg)

@@ -8,7 +8,7 @@ title: CameraCapture
 
 **Category**: Source
 
-**Brief**: Acquires a sequence of images from a webcam with the specified index. 
+**Brief**: Acquires a sequence of images from a DirectShow-compatible camera with the specified index. 
 
 **Properties**:
 -   `CaptureProperties` (*Bonsai.Vision.CapturePropertyCollection*) - OpenCV capture properties, which can be set by opening the *CapturePropertyAssignment Collection Editor* and adding a new member
