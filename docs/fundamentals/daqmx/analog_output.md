@@ -23,7 +23,7 @@ title: AnalogOutput
     - `MinimumValue` - minimum voltage value expected in the signal, analogous to `MaximumValue`
     - `VoltageUnits` - the units used to generate a voltage signal to the channel; for more information about the options (`Volts` or `FromCustomScale`), see the [NI website](https://zone.ni.com/reference/en-XX/help/370471AM-01/mxcprop/attr1184/)
 - `SampleMode` (*NationalInstruments.DAQmx.SampleQuantityMode*) - specifies whether samples are generated until the task is stopped (`SampleContinuous`) or a specific number of samples, set by `BufferSize`, is reached (`FiniteSamples`)
-- `SampleRate` (*double*) - the number of samples generated per second; the upper limit depends of the DAQ board
+- `SampleRate` (*double*) - the number of samples generated per second. It should be greater than twice the highest frequency component in the emitted signal, respecting the Nyquist Sampling Theorem. The upper limit depends of the DAQ board.
 - `SignalSource` (*string*) - source terminal of the clock; if not specified, the internal clock of the device will be used
 
 **Output** (*OpenCV.Net.Mat*): 

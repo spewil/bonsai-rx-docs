@@ -12,7 +12,7 @@ title: SpinnakerCapture
 **Brief**: Acquires a sequence of images from a FLIR camera using the Spinnaker software
 
 **Properties**:
--   `ColorProcessing` - the methodDefault vs. NoColorProcessing
+-   `ColorProcessing` - methodDefault vs. NoColorProcessing
 -   `Index` - index of the camera to acquire images from
 
 **Output** (*Bonsai.Spinnaker.SpinnakerDataFrame*):
@@ -55,7 +55,7 @@ title: SpinnakerCapture
     -   `ScanLineSelector` (*long*)
     -   `TimerValue` (*double*)
     -   `CounterValue` (*double*)
-    -   `LineStatusAll` (*long*)
+    -   `LineStatusAll` (*long*) - state of GPIO pins
     -   `TimestampLatchValue` (*long*)
     -   `PixelDynamicRangeMax` (*long*)
     -   `PixelDynamicRangeMin` (*long*)

@@ -24,6 +24,7 @@ module.exports = {
 			"core/reactive/merge",
 			"core/reactive/skip",
 			"core/reactive/skip_until",
+			"core/reactive/subscribe_when",
 			"core/reactive/take",
 			"core/reactive/take_until",
 			"core/reactive/time_interval",
@@ -47,7 +48,8 @@ module.exports = {
 		{
 		"type": "category",
 		"label": "Dsp",
-		"items": ["fundamentals/dsp/function_generator",
+		"items": ["fundamentals/dsp/convert_scale",
+			"fundamentals/dsp/function_generator",
 			"fundamentals/dsp/matrix_writer"]
 		},
 		{
@@ -69,7 +71,14 @@ module.exports = {
 		"type": "category",
 		"label": "Video",
 		"items": ["fundamentals/video/camera_capture",
+			"fundamentals/video/crop",
+			"fundamentals/video/file_capture",
 			"fundamentals/video/video_writer"]
+		},
+		{
+		"type": "category",
+		"label": "WindowsInput",
+		"items": ["fundamentals/windows_input/key_down"]
 		}	
 	],
 	"Advanced Topics" : [],

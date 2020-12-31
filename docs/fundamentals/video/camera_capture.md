@@ -8,10 +8,12 @@ title: CameraCapture
 
 **Category**: Source
 
-**Brief**: Acquires a sequence of images from camera with the specified index
+**Brief**: Acquires a sequence of images from a DirectShow-compatible camera with the specified index. 
 
 **Properties**:
--   `CaptureProperties` (*Bonsai.Vision.CapturePropertyCollection*)
+-   `CaptureProperties` (*Bonsai.Vision.CapturePropertyCollection*) - OpenCV capture properties, which can be set by opening the *CapturePropertyAssignment Collection Editor* and adding a new member
+	- `Property` - a drop-down list of OpenCV capture properties; whether a given property is configurable depends on the particular camera
+	- `Value` - value of the selected property
 -   `Index` (*int*) - index of the camera to acquire images from
 
 **Output** (*OpenCV.Net.IpIImage*) - 2D matrix of pixels, accepted as input by `VideoWriter`
@@ -38,7 +40,23 @@ title: CameraCapture
 
 **Tip**: Write video to file using `VideoWriter`
 
-**Tip**: To visualise the video during acquisition, install the bonsai Vision Design Library and open `Bonsai.Vision.Design.IpIImageVisualizer`from the `Image` output node of the respective image capture node
+**Tip**: To visualise the video during acquisition, install the bonsai Vision Design Library and open `Bonsai.Vision.Design.IplImageVisualizer`from the `CameraCapture` node
+
+**Tip**: If `CameraCapture` acquires frames at a high rate and is followed by a long processing pipeline, processing delays may result in dropped frames. This is because `CameraCapture` can only stream a new frame once the downstream processing of the previous frame has completed. Up to a limit, this issue can be solved by including buffers.  
+
+**Tip**: For industrial cameras, use dedicated Bonsai libraries:
+
+|    **Camera**   |       **Bonsai**       |
+|:---------------:|:----------------------:|
+|      Basler     |      Pylon Library     |
+|       FLIR      |    Spinnaker Library   |
+| Intel RealSense |    RealSense Library   |
+|       PCO       |      PCO Library*      |
+|    PointGrey    |    PointGrey Library   |
+|      PSEye      | CLEyeMulticam Library  |
+|       uEye      |      uEye Library      |
+
+* Not yet distributed (as of Dec'20), but can be compiled from the [github repository](https://github.com/bonsai-rx/pco). 
 
 ---
 

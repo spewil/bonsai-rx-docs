@@ -22,7 +22,7 @@ title: AnalogInput
     - `TerminalConfiguration` - input terminal configuration as [appropriate for the particular device](https://www.ni.com/documentation/en/ni-daqmx/20.1/devconsid/defaulttermconfig/); for more information about the options (`Differential`, `Pseudodifferential`, `Rse`, `Nrse`) see the [NI website](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019QRZSA2&l=en-GB)
     - `VoltageUnits` - the units used to return voltage measurement from the channel; for more information about the options (`Volts`, `FromCustomScale`, `FromTeds`), see the [NI website](https://www.ni.com/documentation/en/ni-daqmx/latest/daqmx-prop-ref/task-ai-voltage-units-1094/)
 - `SampleMode` (*NationalInstruments.DAQmx.SampleQuantityMode*) - specifies whether samples are acquired until the task is stopped (`SampleContinuous`) or a specific number of samples, set by `BufferSize`, is reached (`FiniteSamples`)
-- `SampleRate` (*double*) - sampling rate in samples per second; the upper limit depends of the DAQ board
+- `SampleRate` (*double*) - sampling rate in samples per second. It should be greater than twice the highest frequency component expected in the measured signal, respecting the Nyquist Sampling Theorem. The upper limit depends of the DAQ board.
 - `SamplesPerRead` (*int*) - the number of samples bonsai tries to read at any time; the default value of `-1` means that all available data, set by `BufferSize`, are acquired; positive values smaller than `BufferSize` means that data from the hardware buffer are read more often
 - `SignalSource` (*string*) - source terminal of the clock; if not specified, the internal clock of the device will be used
 
