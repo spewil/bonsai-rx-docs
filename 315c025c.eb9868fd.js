@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{75:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Crowdsourced Documentation!","permalink":"/bonsai-rx-docs/blog/first_post"}]}')}}]);
