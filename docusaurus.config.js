@@ -2,12 +2,12 @@ module.exports = {
   title: 'Bonsai-rx Documentation',
   tagline: 'This page will go away when we merge with the Bonsai site.',
   url: 'https://spewil.github.io',
-  baseUrl: '/',
+  baseUrl: '/bonsai-rx-docs/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'spewil', // Usually your GitHub org/user name.
-  projectName: 'spewil.github.io', // Usually your repo name.
+  projectName: 'bonsai-rx-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'bonsai-rx docs',
