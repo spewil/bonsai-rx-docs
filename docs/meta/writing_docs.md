@@ -3,7 +3,7 @@ id: writing_docs
 title: Writing Documentation
 ---
 
-## How do develop a doc page
+## How to develop a doc page
 
 All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). To add pages you'll need to be willing to submit a pull request so your documentation draft can be reviewed and merged into the documentation.
 
@@ -12,7 +12,7 @@ There are two ways
 1. If your change is just a typo or additional text, just use the `Edit this page` button on GitHub.
 2. If your change requires a new page or additional files, follow the instructions to edit on your local machine and submit a pull request
 
-Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out for questions.
+Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out on [Gitter](https://gitter.im/bonsai-docs/community) for questions.
 
 ## How to start working locally using `yarn`
 
@@ -23,18 +23,20 @@ Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instr
 - Run `yarn start` to build and serve the site, this should open a local development server
 - You can now make changes to files in `docs` and the site should update
 - If you want to add a new page, you must add it to the `sidebars.js` file, for more information see [here](https://v2.docusaurus.io/docs/sidebar/)
-- When you're finished editing or ready to show off your new contribution, submit a pull request for your branch on GitHub with an explanation of your changes
+- If you want to embed an image in a doc, save it as an `.svg` file in an `Images` folder inside the same directory as the respective doc. To save your workflow as `.svg` use `Ctrl + Shift + E`
+- When you're finished editing or ready to show off your new contribution, fork the repo, push your branch to the forked repo, and submit a pull request for your branch on GitHub with an explanation of your changes; for more information about this process, see the `Public Forked Project` section [here](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project)
 
 ## Documentation Style Guide
 
 - Each page not in `Tutorials` should reflect the use of a single or handful of nodes
 - The filename of a doc page should be identical to its `id` in the markdown header
+- Match the formatting you see in the rest of the project
 
-# Markdown Cheatsheet
+## Markdown Cheatsheet
 
 You can write content using
 
-## Headers
+### Headers
 
 # H1 - Create the best documentation
 
@@ -50,7 +52,7 @@ You can write content using
 
 ---
 
-## Emphasis
+### Emphasis
 
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -62,7 +64,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 ---
 
-## Lists
+### Lists
 
 1. First ordered list item
 1. Another item
@@ -79,7 +81,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 ---
 
-## Links
+### Links
 
 [I'm an inline-style link](https://www.google.com/)
 
@@ -101,13 +103,13 @@ Some text to show that the reference links can follow later.
 
 ---
 
-## Internal links
+### Internal links
 
-This is a link to [another document.](../docs/fundamentals/video/video_writer.md) This is a link to an [external page.](http://www.example.com/)
+This is a link to [another document.](../fundamentals/video_acquisition) This is a link to an [external page.](http://www.example.com/)
 
 ---
 
-## Images
+### Images
 
 Here's our logo (hover to see the title text):
 
@@ -123,7 +125,7 @@ Images from any folder can be used by providing path to file. Path should be rel
 
 ---
 
-## Code
+### Code
 
 ```javascript
 var s = 'JavaScript syntax highlighting';
@@ -148,7 +150,7 @@ function highlightMe() {
 
 ---
 
-## Tables
+### Tables
 
 Colons can be used to align columns.
 
@@ -167,7 +169,7 @@ There must be at least 3 dashes separating each header cell. The outer pipes (|)
 
 ---
 
-## Blockquotes
+### Blockquotes
 
 > Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
 
@@ -177,7 +179,7 @@ Quote break.
 
 ---
 
-## Inline HTML
+### Inline HTML
 
 <dl>
   <dt>Definition list</dt>
@@ -189,7 +191,7 @@ Quote break.
 
 ---
 
-## Line Breaks
+### Line Breaks
 
 Here's a line for us to start with.
 
@@ -199,7 +201,7 @@ This line is also a separate paragraph, but... This line is only separated by a 
 
 ---
 
-## Admonitions
+### Admonitions
 
 :::note
 
@@ -232,7 +234,7 @@ This is a warning
 :::
 
 
-# Javascript
+### Javascript
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
 

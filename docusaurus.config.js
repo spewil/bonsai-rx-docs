@@ -2,12 +2,12 @@ module.exports = {
   title: 'Bonsai-rx Documentation',
   tagline: 'This page will go away when we merge with the Bonsai site.',
   url: 'https://spewil.github.io',
-  baseUrl: '/bonsai-rx-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'spewil', // Usually your GitHub org/user name.
-  projectName: 'bonsai-rx-docs', // Usually your repo name.
+  projectName: 'spewil.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'bonsai-rx docs',
@@ -80,13 +80,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/spewil/bonsai-rx-docs/edit/master/website/',
+	    'https://github.com/spewil/bonsai-rx-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/spewil/bonsai-rx-docs/edit/master/website/blog/',
+            'https://github.com/spewil/bonsai-rx-docs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
