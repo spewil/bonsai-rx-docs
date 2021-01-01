@@ -36,7 +36,9 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-Coming soon!
+Once you have the site building locally and all looks good, you can manually deploy the site to GitHub Pages by running `yarn deploy` from the `main` branch. This will build the site and move the relevant files to the `gh-pages` branch.
+
+`Note`: this is not necessary with Travis CI as this automatically triggers deployment on `push` and PR `merge` to the `main` branch.
 
 # How to develop new docs
 
