@@ -28,9 +28,10 @@ Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instr
 
 ## Documentation Style Guide
 
-- Each page not in `Tutorials` should reflect the use of a single or handful of nodes
+- Each page not in `Tutorials` should reflect the use of a single node or a handful of nodes
 - The filename of a doc page should be identical to its `id` in the markdown header
-- Match the formatting you see in the rest of the project
+- Match the formatting you see in the rest of the project as much as possible, but don't be afraid to get creative
+- **Please read through the following cheat sheet to best use the available markdown tools!**
 
 ## Markdown Cheatsheet
 
@@ -105,7 +106,7 @@ Some text to show that the reference links can follow later.
 
 ### Internal links
 
-This is a link to [another document.](../fundamentals/video_acquisition) This is a link to an [external page.](http://www.example.com/)
+This is a link to [another document.](../fundamentals/video/camera_capture/) This is a link to an [external page.](http://www.example.com/)
 
 ---
 

@@ -3,8 +3,8 @@ module.exports = {
   tagline: 'This page will go away when we merge with the Bonsai site.',
   url: 'https://spewil.github.io',
   baseUrl: '/bonsai-rx-docs/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'error',
+  onBrokenMarkdownLinks: 'error',
   favicon: 'img/favicon.ico',
   organizationName: 'spewil', // Usually your GitHub org/user name.
   projectName: 'bonsai-rx-docs', // Usually your repo name.
@@ -24,11 +24,44 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/spewil/bonsai-rx-docs',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    colorMode: {
+      // "light" | "dark"
+      defaultMode: 'dark',
+
+      // Hides the switch in the navbar
+      // Useful if you want to support a single color mode
+      disableSwitch: false,
+
+      // Should we use the prefers-color-scheme media-query,
+      // using user system preferences, instead of the hardcoded defaultMode
+      respectPrefersColorScheme: false,
+
+      // Dark/light switch icon options
+      switchConfig: {
+        // Icon for the switch while in dark mode
+        darkIcon: '🌙',
+
+        // CSS to apply to dark icon,
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: {
+          marginLeft: '2px',
+        },
+
+        // Unicode icons such as '\u2600' will work
+        // Unicode with 5 chars require brackets: '\u{1F602}'
+        lightIcon: '\u{1F602}',
+
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
     },
     footer: {
       style: 'dark',

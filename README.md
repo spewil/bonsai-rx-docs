@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/spewil/bonsai-rx-docs.svg?branch=main)](https://travis-ci.com/spewil/bonsai-rx-docs)
+
 # bonsai-rx-docs
 
 **unofficial documentation for bonsai-rx**
@@ -18,7 +20,7 @@ If it's your first time cloning and developing in the repo, install the requisit
 yarn install
 ```
 
-## Local Development
+## Local Development for Testing
 
 ```console
 yarn start
@@ -36,13 +38,13 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-Once you have the site building locally and all looks good, you can manually deploy the site to GitHub Pages by running `yarn deploy` from the `main` branch. This will build the site and move the relevant files to the `gh-pages` branch.
+Once you have the site building locally and all looks good, you *can* manually deploy the site to GitHub Pages by running `yarn deploy` from the `main` branch. This will build the site and move the relevant files to the `gh-pages` branch.
 
-`Note`: this is not necessary with Travis CI as this automatically triggers deployment on `push` and PR `merge` to the `main` branch.
+`Note`: this is not necessary with Travis CI as this automatically triggers deployment on `push` and PR `merge` to the `main` branch. All you need to do is test your build locally and then `commit` and `push` or submit a pull request for review and `merge`.
 
 # How to develop new docs
 
-See instructions [here](https://github.com/spewil/bonsai-rx-docs/blob/main/docs/meta/writing_docs.md) for how to contribute.
+See instructions [here](/docs/meta/writing_docs/) for how to contribute.
 
 # TODO
 
