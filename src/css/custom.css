@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #E63F59;
+  --ifm-color-primary: #ADAFB8;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
@@ -24,5 +24,20 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-a { color: #C8C9A6; }
+html[data-theme='light'] {
+  --ifm-background-color: #fffffa;
+  --ifm-background-surface-color: #fffffa; 
+  --ifm-footer-background-color: #fffffa;
+  --ifm-color-primary: #5F626D;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #121212; 
+  --ifm-background-surface-color: #121212; 
+  --ifm-footer-background-color: #121212; 
+  --ifm-color-primary: #ADAFB8;
+}
+
+a { color: #EC2328; }
 a:hover { text-decoration: underline; }
+

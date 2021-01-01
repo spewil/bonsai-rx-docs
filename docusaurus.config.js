@@ -64,7 +64,7 @@ module.exports = {
       },
     },
     footer: {
-      style: 'dark',
+      //style: 'light',
       links: [
         {
           title: 'Docs',
@@ -102,7 +102,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Built with Docusaurus. (${new Date().getFullYear()})`,
+      copyright: `Built with Docusaurus (${new Date().getFullYear()})`,
     },
   },
   presets: [
