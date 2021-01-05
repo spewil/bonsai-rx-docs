@@ -17,5 +17,8 @@ The `Merge` operator allows you to combine the output of multiple observables so
 
 The merged observable will terminate successfully when all the input sequences have terminated successfully, or exceptionally as soon as any sequence raises an error.
 
-**Common errors**: `Build Error: No method overload found for the given arguments.`
+:::caution
+`Build Error: No method overload found for the given arguments.`
+
 The supplied inputs might be of different types.
+:::

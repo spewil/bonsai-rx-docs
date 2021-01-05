@@ -41,19 +41,24 @@ title: AnalogOutput
 - `Data` (*System.IntPtr*)
 -   `IsClosed` (*bool*)
 
----
 
-**Tip**: produce arbitrary input signals using `FunctionGenerator`
+:::tip
+Produce arbitrary input signals using `FunctionGenerator`
+:::
 
-**Tip**: independent signals of `OpenCV.Net.Mat` type (`1 x N` arrays) can be merged using `Zip` --> `Concat` (\#Dsp)
+:::tip
+Independent signals of `OpenCV.Net.Mat` type (`1 x N` arrays) can be merged using `Zip` --> `Concat` (\#Dsp)
+:::
 
----
 
-**Common errors**:
-
+:::caution
 `Runtime Error: Device cannot be accessed`
+
 Most likely happens because the NI-DAQmx device is not connected/powered. Several other possible reasons and remedies are listed in the bonsai error message.
+:::
 
+:::caution
 `Runtime Error: Requested value is not a supported value for this property. The property value may be invalid because it conflicts with another property.`
-With some NI-DAQmx boards (e.g. USB-6341), this is caused by the workflow containing multiple `AnalogOutput` nodes. Having to use a single `AnalogOutput` node means that the channel non-specific parameters (e.g. `SampleMode`) will be the same for all channels. 
 
+With some NI-DAQmx boards (e.g. USB-6341), this is caused by the workflow containing multiple `AnalogOutput` nodes. Having to use a single `AnalogOutput` node means that the channel non-specific parameters (e.g. `SampleMode`) will be the same for all channels. 
+:::

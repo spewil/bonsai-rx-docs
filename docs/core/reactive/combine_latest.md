@@ -19,7 +19,11 @@ The first pair is only emitted when all observables have emitted at least one it
 
 The operator will terminate only when all observable sequences have terminated. If any of the observables terminates early, the last item emitted by that sequence will continue to be used to generate pairs whenever the remaining observables emit new items. This means the resulting sequence will be as long as the longest of the input sequences.
 
-**Tip**: `CombineLatest` followed by `Concat` can be used to synchronise multiple source nodes (e.g. `CameraCapture` at <30 Hz non-triggered frame rates) to the precision of operating system jitter (~10 ms).
+:::tip
+`CombineLatest` followed by `Concat` can be used to synchronise multiple source nodes (e.g. `CameraCapture` at <30 Hz non-triggered frame rates) to the precision of operating system jitter (~10 ms).
+:::
 
-**Tip**: `CombineLatest` can be the reason output files contain duplicate rows. `Zip` should be used instead. 
+:::tip
+`CombineLatest` can be the reason output files contain duplicate rows. `Zip` should be used instead. 
 Note that, when applied to multiple video sources, the output frame rate will be the sume of input frame rate. This can be solved by specifying one of the sources as the master, e.g. adding `Sample` after `CombineLatest` with the master as secondary input, or using `WithLatestFrom` instead.
+:::

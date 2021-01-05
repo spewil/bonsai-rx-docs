@@ -24,9 +24,8 @@ title: CsvWriter
 
 **Output** - same type as the input
 
----
-
-**Common errors**:
-
+:::caution
 `Runtime Error: A valid file path must be specified`
+
 Occurs when the `FileName` property is left empty or not specified properly
+:::

@@ -39,8 +39,9 @@ Property values are updated independently of what the target operator might be d
 
 This means that property updates may happen even while the target operator is receiving input notifications from other nodes. Care must be taken to ensure that changing the property state in this way does not break the behaviour of the workflow.
 
-**ProTip:** Some operators respond to changes in their parameters only at specific moments. For example, the parameters of the `Timer` operator must be set before the observable sequence is initialized. In this case, the input to the externalized property needs to be emitted immediately during the subscription phase for the mapping to work.
-{: .notice--info}
+:::tip
+Some operators respond to changes in their parameters only at specific moments. For example, the parameters of the `Timer` operator must be set before the observable sequence is initialized. In this case, the input to the externalized property needs to be emitted immediately during the subscription phase for the mapping to work.
+:::
 
 Externalized properties also have one more function when placed inside node groups, for example inside a `NestedWorkflow`. If they are given a name, they will be exposed as top-level properties of the node group. When the node representing that group is selected, all named externalized properties will show up in the `Properties` panel.
 
@@ -48,8 +49,9 @@ Externalized properties also have one more function when placed inside node grou
 
 Multiple properties can be mapped simultaneously from the same input by using the `PropertyMapping` operator. You can select which properties to map by using the editors available in the `Properties` panel. For each mapped property you must specify its source, i.e. which members of the input data item are used to assign its value.
 
-**ProTip:** If the type of the selected member does not match the type of the property, a conversion is attempted. If no compatible conversion is available, Bonsai checks whether it is possible to construct the corresponding data type from the selected members. For example, it would be possible to map a `Point` data type by selecting two numeric values from the input. In this case, the values would be used to construct a `Point` instance by assigning them to the X and Y fields.
-{: .notice--info}
+:::tip
+If the type of the selected member does not match the type of the property, a conversion is attempted. If no compatible conversion is available, Bonsai checks whether it is possible to construct the corresponding data type from the selected members. For example, it would be possible to map a `Point` data type by selecting two numeric values from the input. In this case, the values would be used to construct a `Point` instance by assigning them to the X and Y fields.
+:::
 
 Every time the input sequence sends out a new data item, all the specified property mappings are updated at the same time. This guarantees that property updates are sequentially performed in chunks. It is also possible to connect property mapping operators to multiple target nodes. In this case, the property updates will affect all nodes to which the operator is connected to.
 

@@ -11,5 +11,6 @@ Second, subjects must be given a name. You can subscribe to a named subject from
 
 ![Example of using subjects to share observable sequences](../images/subjects.svg)
 
-**ProTip:** Subject names have scope. A subject with a given name can be accessed anywhere at the same level it is defined, or inside any node groups defined at that level. You cannot access a subject that was defined in a node group below the level you are in. If node groups are used to define [higher-order observable sequences](/docs/concepts/higher_order/), any subjects defined inside that group will be unique to each created sequence.
-{: .notice--info}
+:::tip
+Subject names have scope. A subject with a given name can be accessed anywhere at the same level it is defined, or inside any node groups defined at that level. You cannot access a subject that was defined in a node group below the level you are in. If node groups are used to define [higher-order observable sequences](/docs/concepts/higher_order/), any subjects defined inside that group will be unique to each created sequence.
+:::

@@ -19,8 +19,9 @@ When building a Bonsai program, you chain together reactive operators to create 
 
 Sources create sequences that generate notifications spontaneously. This means that you can place these nodes without connecting them to any input. Every Bonsai program will contain at least one source. Usually sources represent streams of data which are acquired from devices or files, such as cameras, microphones, accelerometers, WAV files, network sockets, touchpads, etc.
 
-**ProTip:** Even though all sources can be placed independently, sometimes you can still connect an input to them. For example, if you place a `FileCapture` source by itself, it will playback all frames of the movie at the specified frame rate. However, if you connect it to an input, the next frame will now be played only when a new notification arrives, allowing you to precisely control video playback.
-{: .notice--info}
+:::tip
+Even though all sources can be placed independently, sometimes you can still connect an input to them. For example, if you place a `FileCapture` source by itself, it will playback all frames of the movie at the specified frame rate. However, if you connect it to an input, the next frame will now be played only when a new notification arrives, allowing you to precisely control video playback.
+:::
 
 ## Transform
 
@@ -42,8 +43,9 @@ Condition operators apply a filter on individual data items in a sequence. Simil
 
 The condition function is applied to individual items immediately whenever a new notification is received from the input sequence, and valid items are sent out as soon as they are found to match the criteria. When the input sequence terminates successfully (or exceptionally), the filtered sequence also terminates.
 
-**ProTip:** The `Condition` operator allows you to specify arbitrary matching criteria using a node group. The input to the nested node group is the unfiltered sequence, and the output must be a sequence of elements of type `bool`, i.e. logical values indicating `true` or `false` depending on whether the current item is considered to match the criteria.
-{: .notice--info}
+:::tip
+The `Condition` operator allows you to specify arbitrary matching criteria using a node group. The input to the nested node group is the unfiltered sequence, and the output must be a sequence of elements of type `bool`, i.e. logical values indicating `true` or `false` depending on whether the current item is considered to match the criteria.
+:::
 
 ## Sink
 
@@ -55,8 +57,9 @@ For this reason, all sinks also share a very similar style of marble diagram:
 
 Because the output sequence of a sink is exactly the same as the input sequence, sinks can always be placed at any point of the workflow without breaking existing behaviour.
 
-**ProTip:** You can chain multiple sinks sequentially as long as the input is compatible. This can be very convenient when you need to run multiple side effects on a single data stream. A common application is to log data into a file while simultaneously transmitting it to an external device.
-{: .notice--info}
+:::tip
+You can chain multiple sinks sequentially as long as the input is compatible. This can be very convenient when you need to run multiple side effects on a single data stream. A common application is to log data into a file while simultaneously transmitting it to an external device.
+:::
 
 ## Combinator
 
@@ -65,16 +68,13 @@ Although a lot can be done with the right sequence of sources, transforms and si
 Combinators can be used to merge data from multiple sources; control when observable sequences start and stop; or even to create entirely new sequences dynamically. Together, they provide an incredibly flexible toolkit to manipulate asynchronous data streams.
 
 ## Combinators by Category
-{: .no_toc}
 
 {% assign operators-by-category = site.operators | group_by: 'category' %}
 {% for category in operators-by-category %}
 {% if site.data.category-text[category.name] %}
 ### {{ site.data.category-text[category.name] }}
-{: .no_toc}
 {% else %}
 ### {{ category.name }}
-{: .no_toc}
 {% endif %}
 {% for operator in category.items %}
 * [{{ operator.title }}]({{ operator.url }}) -- {{ operator.excerpt }}

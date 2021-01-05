@@ -36,31 +36,36 @@ title: CameraCapture
     -   `Height` (*int*)
 -   `IsClosed` (*bool*)
 
----
+:::tip
+Write video to file using `VideoWriter`
+:::
 
-**Tip**: Write video to file using `VideoWriter`
+:::tip
+To visualise the video during acquisition, install the bonsai Vision Design Library and open `Bonsai.Vision.Design.IplImageVisualizer`from the `CameraCapture` node
+:::
 
-**Tip**: To visualise the video during acquisition, install the bonsai Vision Design Library and open `Bonsai.Vision.Design.IplImageVisualizer`from the `CameraCapture` node
+:::tip
+If `CameraCapture` acquires frames at a high rate and is followed by a long processing pipeline, processing delays may result in dropped frames. This is because `CameraCapture` can only stream a new frame once the downstream processing of the previous frame has completed. Up to a limit, this issue can be solved by including buffers.  
+:::
 
-**Tip**: If `CameraCapture` acquires frames at a high rate and is followed by a long processing pipeline, processing delays may result in dropped frames. This is because `CameraCapture` can only stream a new frame once the downstream processing of the previous frame has completed. Up to a limit, this issue can be solved by including buffers.  
-
-**Tip**: For industrial cameras, use dedicated Bonsai libraries:
+:::tip
+For industrial cameras, use dedicated Bonsai libraries:
 
 |    **Camera**   |       **Bonsai**       |
 |:---------------:|:----------------------:|
-|      Basler     |      Pylon Library     |
-|       FLIR      |    Spinnaker Library   |
-| Intel RealSense |    RealSense Library   |
-|       PCO       |      PCO Library*      |
-|    PointGrey    |    PointGrey Library   |
-|      PSEye      | CLEyeMulticam Library  |
-|       uEye      |      uEye Library      |
+|      `Basler`     |      `Pylon Library`     |
+|       `FLIR`      |    `Spinnaker Library`   |
+| `Intel RealSense` |    `RealSense Library`   |
+|       `PCO`      |      `PCO Library*`     |
+|   `PointGrey`    |    `PointGrey Library`   |
+|      `PSEye`      | `CLEyeMulticam Library`  |
+|       `uEye`      |      `uEye Library`      |
 
-* Not yet distributed (as of Dec'20), but can be compiled from the [github repository](https://github.com/bonsai-rx/pco). 
+* PCO library is not distributed yet (as of Dec'20), but can be compiled from the [github repository](https://github.com/bonsai-rx/pco). 
+:::
 
----
-
-**Common errors**:
-
+:::caution
 `Runtime error: Unable to acquire camera frame`
+
 One possible reason is that the camera is currently open in another software.
+:::

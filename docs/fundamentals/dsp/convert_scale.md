@@ -19,8 +19,10 @@ title: ConvertScale
 
 **Output** (*OpenCV.Net.Mat*, *OpenCV.Net.IplImage*, ...) - an array of the same shape and type as the input array
 
----
+:::tip
+`ConvertScale` with `Scale` = 0 can be used to stop input transmission, e.g. to drive pins/ports to LOW state at the end of a workflow 
+:::
 
-**Tip**: `ConvertScale` with `Scale` = 0 can be used to stop input transmission, e.g. to drive pins/ports to LOW state at the end of a workflow 
-
-**Tip**: Use `ConvertScale` to convert image data with depth greater than 8 bits to `U8`, which is accepted as input by `VideoWriter`. `Scale` and `Shift` arguments can be set accordingly (based on the expected pixel range) to maintain image appearance as much as possible.
+:::tip
+Use `ConvertScale` to convert image data with depth greater than 8 bits to `U8`, which is accepted as input by `VideoWriter`. `Scale` and `Shift` arguments can be set accordingly (based on the expected pixel range) to maintain image appearance as much as possible.
+:::

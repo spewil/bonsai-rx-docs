@@ -42,8 +42,9 @@ The behaviour of the `WindowWorkflow` operator is specified by the floating node
 
 The input to the node group -- represented by the `Source1` operator -- is a sequence containing the individual items received by `WindowWorkflow`. In this case, it is a sequence with a single item that returns the file name emitted by the `EnumerateFiles` source. We use an externalized property to assign this value to the `FileName` of the `FileCapture` node, so that the correct video is accessed. Finally, the output of the node group determines the type and timing of the items emitted by the created sequence.
 
-**ProTip:** The `WindowWorkflow` operator creates new sequences for every input notification. However, it does not automatically subscribe to them -- they are latent. No data actually flows through the operators in the node group until some other higher-order operator -- in this case `Concat` -- actually takes these sequences and subscribes to them.
-{: .notice--info}
+:::tip
+The `WindowWorkflow` operator creates new sequences for every input notification. However, it does not automatically subscribe to them -- they are latent. No data actually flows through the operators in the node group until some other higher-order operator -- in this case `Concat` -- actually takes these sequences and subscribes to them.
+:::
 
 ## Marble diagrams for higher-order operators
 

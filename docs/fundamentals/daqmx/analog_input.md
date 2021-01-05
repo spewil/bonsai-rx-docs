@@ -41,16 +41,16 @@ title: AnalogInput
 - `Data` (*System.IntPtr*)
 -   `IsClosed` (*bool*)
 
---- 
+:::tip
+To avoid missing data due to subscription delays, this node should be initialised before any nodes whose output `AnalogInput` is supposed to acquire. For example, if the output of `AnalogOutput` is fed back into `AnalogInput`, the latter should be placed higher in the workflow than the former.
+:::
 
-**Tip**: To avoid missing data due to subscription delays, this node should be initialised before any nodes whose output `AnalogInput` is supposed to acquire. For example, if the output of `AnalogOutput` is fed back into `AnalogInput`, the latter should be placed higher in the workflow than the former.
+:::tip
+Write data to file using `MatrixWriter`
+:::
 
-**Tip**: write data to file using `MatrixWriter`
-
----
-
-**Common errors**:
-
+:::caution
 `Runtime Error: Device cannot be accessed`
-Most likely happens because the NI-DAQmx device is not connected/powered. Several other possible reasons and remedies are listed in the bonsai error message.
 
+Most likely happens because the NI-DAQmx device is not connected/powered. Several other possible reasons and remedies are listed in the bonsai error message.
+:::

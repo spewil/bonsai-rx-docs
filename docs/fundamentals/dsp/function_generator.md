@@ -24,8 +24,10 @@ title: FunctionGenerator
 
 **Output** (*OpenCV.Net.Mat*) - a `1 x N` array where `N` is `BufferLength`
 
----
+:::tip
+To limit the waveform to positive values, use equal values for `Amplitude` and `Offset`
+:::
 
-**Tip**: To limit the waveform to positive values, use equal values for `Amplitude` and `Offset`
-
-**Tip**: To produce a rectangular waveform with variable duty cycles, use `Sawtooth` waveform type, followed by a `Threshold` (Dsp) node
+:::tip
+To produce a rectangular waveform with variable duty cycles, use `Sawtooth` waveform type, followed by a `Threshold` (Dsp) node
+:::
