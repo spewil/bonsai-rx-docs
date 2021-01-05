@@ -2,7 +2,7 @@
 
 # bonsai-rx-docs
 
-**unofficial documentation for bonsai-rx**
+**unofficial documentation for [bonsai-rx](https://github.com/bonsai-rx/bonsai)**
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. Check the [documentation tutorial pages](https://v2.docusaurus.io/docs/docs-introduction) if you are a new developer.
 

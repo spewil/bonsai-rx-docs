@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Bonsai-rx Documentation',
-  tagline: 'This page will go away when we merge with the Bonsai site.',
+  tagline: 'Community-driven documentation for the Bonsai programming language.',
   url: 'https://spewil.github.io',
   baseUrl: '/bonsai-rx-docs/',
   onBrokenLinks: 'error',
@@ -67,13 +67,26 @@ module.exports = {
       //style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Home',
           items: [
             {
-              label: 'Home',
+              label: 'Docs',
               to: 'docs/',
-            }
+            },
+            {
+              label: 'Blog',
+              to: 'blog',
+            },
           ],
+        },
+        {
+        title: 'Contribute',
+        items: [
+         {
+            label: 'GitHub',
+            href: 'https://github.com/spewil/bonsai-rx-docs',
+          }
+          ]
         },
         {
           title: 'Community',
@@ -92,20 +105,7 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/spewil/bonsai-rx-docs',
-            },
-          ],
-        },
-      ],
+       ],
       copyright: `Built with Docusaurus (${new Date().getFullYear()})`,
     },
 
