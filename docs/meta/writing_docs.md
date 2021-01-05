@@ -5,14 +5,15 @@ title: Writing Documentation
 
 ## How to develop a doc page
 
-All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). To add pages you'll need to be willing to submit a pull request so your documentation draft can be reviewed and merged into the documentation.
+All documentation is composed in [GitHub-flavored Markdown syntax](https://github.github.com/gfm/) which makes it very easy to contribute!
 
-There are two ways
+There are a few ways to contribute documentation:
 
-1. If your change is just a typo or additional text, just use the `Edit this page` button on GitHub.
-2. If your change requires a new page or additional files, follow the instructions to edit on your local machine and submit a pull request
+1. If your change is just a typo or additional text, just use the `Edit this page` button at the bottom of each page to edit on GitHub. Submit a pull request for your change.
+2. If your change requires a new documentation page, you can use the `add file` button on GitHub to add your new markdown text. ''follow the instructions to edit on your local machine and submit a pull request.
+3. If your new page requires more than just text (e.g. images), you'll need to clone the repository, make a branch, make changes, and submit a pull request so your documentation draft can be reviewed and merged into the documentation.
 
-Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instructions, and don't hesitate to reach out on [Gitter](https://gitter.im/bonsai-docs/community) for questions.
+Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for more instructions, and don't hesitate to reach out on [Gitter](https://gitter.im/bonsai-docs/community) for questions. We'd love to have your contribution!
 
 ## How to start working locally using `yarn`
 
@@ -26,7 +27,7 @@ Please see the [GitHub repo](https://github.com/spewil/bonsai-rx-docs) for instr
 - If you want to embed an image in a doc, save it as an `.svg` file in an `Images` folder inside the same directory as the respective doc. To save your workflow as `.svg` use `Ctrl + Shift + E`
 - When you're finished editing or ready to show off your new contribution, fork the repo, push your branch to the forked repo, and submit a pull request for your branch on GitHub with an explanation of your changes; for more information about this process, see the `Public Forked Project` section [here](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project)
 
-## Documentation Style Guide
+## Documentation Style Guide & Features
 
 - Each page not in `Tutorials` should reflect the use of a single node or a handful of nodes
 - The filename of a doc page should be identical to its `id` in the markdown header

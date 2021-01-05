@@ -8,6 +8,10 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 
 If you'd like to contribute docs but aren't interested in developing the documentation site, just use the **edit** buttons and submit pull requests, or submit an issue to request a new page.
 
+# Contributing
+
+See instructions [here](https://www.spewil.com/bonsai-rx-docs/docs/meta/writing_docs/) for how to contribute.
+
 # How to build the site locally
 
 Make sure you have the `yarn` Node package by installing with the package manager of your choice (brew, chocolatey, etc).
@@ -41,10 +45,6 @@ This command generates static content into the `build` directory and can be serv
 Once you have the site building locally and all looks good, you *can* manually deploy the site to GitHub Pages by running `yarn deploy` from the `main` branch. This will build the site and move the relevant files to the `gh-pages` branch.
 
 `Note`: this is not necessary with Travis CI as this automatically triggers deployment on `push` and PR `merge` to the `main` branch. All you need to do is test your build locally and then `commit` and `push` or submit a pull request for review and `merge`.
-
-# How to develop new docs
-
-See instructions [here](/docs/meta/writing_docs/) for how to contribute.
 
 # TODO
 

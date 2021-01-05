@@ -20,30 +20,35 @@ title: MatrixWriter
 
 **Output** (*OpenCV.Net.Mat*) - the same array
 
----
-
-**Tip**: To read a `.bin` file (written with `ColumnMajor` layout) in Python, one can use `numpy.fromfile(path, dtype).reshape(-1,C)` where `C` is the number of input channels.
+:::tip
+To read a `.bin` file (written with `ColumnMajor` layout) in Python, one can use `numpy.fromfile(path, dtype).reshape(-1,C)` where `C` is the number of input channels.
 `dtype` depends on the input signal `Depth`
 
 | depth | dtype                       |
 |-------|-----------------------------|
-| U8    |         `np.uint8`          |
-| S8    |         `np.int8`           |
-| U16   |         `np.uint16`         |
-| S16   |         `np.int16`          |
-| S32   |         `np.int32`          |
-| F32   | `np.single` or `np.float32` |
-| F64   | `np.double` or `np.float64` |
+| `U8`    |         `np.uint8`          |
+| `S8`    |         `np.int8`           |
+| `U16`   |         `np.uint16`         |
+| `S16`   |         `np.int16`          |
+| `S32`   |         `np.int32`          |
+| `F32`   | `np.single` or `np.float32` |
+| `F64`   | `np.double` or `np.float64` |
+:::
 
----
-
-**Common errors**:
-
+:::caution
 `Runtime Error: Input array must have the same element type`
+
 Element type may refer to the `Depth` parameter of input signals (e.g. in `FunctionGenerator`). It must be the same for all input signals fed into a given writer node.
+:::
 
+:::caution
 `Runtime Error: Input array must have the same shape except in the dimension corresponding to axis`
-Happens when input arrays have different shapes, possibly due to unequal `BufferSize`
 
+Happens when input arrays have different shapes, possibly due to unequal `BufferSize`
+:::
+
+:::caution
 `Runtime Error: A valid file path must be specified`
+
 Occurs when the `Path` property is left empty or not specified properly
+:::

@@ -29,8 +29,9 @@ Once you have found which operator you want to insert, you can place it by doubl
 
 Another way to quickly find operators is to use the `Search` textbox. Any text inserted here is matched against available operator or namespace names for a match in any order. This means you can search not only for a specific operator name but also by category names to locate all the operators in a namespace (e.g., try typing `Arduino`).
 
-**ProTip:** You can also directly type and search for operator names when the `Workflow` panel has the input focus. This allows you to simply start typing an operator name and directly select which operator you want with the up/down arrow keys. Once you have the right operator, press the `Enter` key to place it. You can repeat the process multiple times to very quickly chain a sequence of operators.
-
+:::tip
+You can also directly type and search for operator names when the `Workflow` panel has the input focus. This allows you to simply start typing an operator name and directly select which operator you want with the up/down arrow keys. Once you have the right operator, press the `Enter` key to place it. You can repeat the process multiple times to very quickly chain a sequence of operators.
+:::
 
 ## Workflow
 
@@ -42,13 +43,17 @@ The most useful action to learn your way around the `Workflow` panel is right-cl
 
 If only one node is selected, the `Output` menu item will display the type of the elements emitted in the observable sequence of that operator.
 
-**ProTip:** If the output of an operator is a complex type, you can also inspect its public data members from the context menu. Clicking on any one of these members will automatically place a new `MemberSelector` transform which selects that member from the output.
+:::tip
+If the output of an operator is a complex type, you can also inspect its public data members from the context menu. Clicking on any one of these members will automatically place a new `MemberSelector` transform which selects that member from the output.
+:::
 
 The context menu also allows you to externalize public properties of the operator into explicit nodes in the workflow, so you can change their values dynamically based on the output of other nodes (see the [Property Mapping](/docs/concepts/property_mapping/) section for more information).
 
 Finally, it is possible to group nodes, both for organizing large workflows, and to define [higher-order operators](/docs/concepts/higher_order/). The most basic grouping is the nested workflow which allows you to encapsulate a workflow fragment inside a single node. This `NestedWorkflow` can be assigned a `Name` and `Description` for ease of reference. Any named properties which are externalized by nodes in the group will be shown as properties of the `NestedWorkflow` so you can literally treat the group as a single node.
 
-**ProTip:** You can use `NestedWorkflow` nodes to document your workflow by adding names and descriptions to individual processing branches. No additional processing cost is incurred by the use of `NestedWorkflow` nodes.
+:::tip
+You can use `NestedWorkflow` nodes to document your workflow by adding names and descriptions to individual processing branches. No additional processing cost is incurred by the use of `NestedWorkflow` nodes.
+:::
 
 ### Type Visualizers
 
@@ -62,8 +67,9 @@ For example, image streams can be displayed on the screen using the default imag
 
 If you leave one or more visualizers open when you stop the workflow, Bonsai will memorize the position and size of each active window. When you run the workflow again, the same visualizer windows will be opened following the memorized layout. Bonsai stores these settings in a `.layout` file which is saved side by side with the workflow so they will persist between editor sessions.
 
-**ProTip:** Many visualizers allow you to access more detailed information or advanced configuration parameters by right-clicking on the visualizer window.
-
+:::tip
+Many visualizers allow you to access more detailed information or advanced configuration parameters by right-clicking on the visualizer window.
+:::
 
 ### Snippets
 
@@ -81,27 +87,25 @@ The `Properties` panel will display all the configuration properties which are a
 
 Most properties can be configured simply by changing the text value in the corresponding row of the property grid. Some properties have further specialized editors which can be accessed by clicking the drop-down or dialog button which will be displayed to the right of the property text.
 
-**ProTip:** Some operators have even more specialized editor windows such as camera configuration dialogs or media player controls. If such property pages exist for the currently selected operator, the small `Property Pages` button above the property grid will become active.
-
+:::tip
+Some operators have even more specialized editor windows such as camera configuration dialogs or media player controls. If such property pages exist for the currently selected operator, the small `Property Pages` button above the property grid will become active.
+:::
 
 ## Commands and Shortcuts
 
 Below is a summary of the most used commands and shortcuts in the workflow editor:
 
 ### Running the workflow
-{: .no_toc}
 
 * Click the arrow `Start` button
 * Press `F5`
 
 ### Stopping the workflow
-{: .no_toc}
 
 * Click the square `Stop` button
 * Press `Shift`+`F5`
 
 ### Insert an operator after the selected node
-{: .no_toc}
 
 * Right-click the operator name and select the `Insert After` option
 * Drag-and-drop the operator from the toolbox to the worflow
@@ -110,72 +114,66 @@ Below is a summary of the most used commands and shortcuts in the workflow edito
 * Copy another node (`Ctrl`+`C`) and paste in the toolbox (`Ctrl`+`V`)
 
 ### Insert an operator before the selected node
-{: .no_toc}
 
 * Right-click the operator name and select the `Insert Before` option
 * Hold the `Shift` key together with any of the above commands (e.g., `Shift`+`Enter`)
 
 ### Insert an operator as a new branch of the selected node
-{: .no_toc}
 
 * Right-click the operator name and select the `Create Branch` option
 * Hold the `Alt` key together with any of the above commands (e.g., `Ctrl`+`Alt`+`V`)
 
 ### Create a connection between two operators
-{: .no_toc}
 
 * Right-click the source node, select the `Create Connection` option and left-click on the target node
 * Drag the source node and drop it on the target node
 
 ### Remove a connection between two operators
-{: .no_toc}
 
 * Right-click the source node, select the `Remove Connection` option and left-click on the target node
 * While holding the `Shift` key, drag the source node and drop it on the target node
 
 ### Selecting multiple nodes
-{: .no_toc}
 
 * Click an empty space in the workflow panel and drag a box around the nodes to be selected
 * While holding the `Shift` key, press the arrow keys to select a string of nodes around the currently selected node
 * Hold the `Ctrl` key and click on a node to add/remove it from the current selection
 
-**ProTip:** Many operations can be performed on multi-node selections (e.g., delete, create connections, create a node group, etc.).
-
+:::tip
+Many operations can be performed on multi-node selections (e.g., delete, create connections, create a node group, etc.).
+:::
 
 ### Open the type visualizer for an operator
-{: .no_toc}
 
 * Double-click on the target node while the workflow is running
 * Right-click on the target node and select a visualizer from the `Show Visualizer` dropdown
 * Press `Enter` while the target node is selected
 
 ### Grouping operators into a node group
-{: .no_toc}
 
 * Select all the nodes to group and press `Ctrl`+`G` to create a nested workflow
 * Right-click on a multi-node selection and select a group type from the `Group` dropdown context menu
 
-**ProTip:** You can change the type of an existing group simply by right-clicking on the group node and selecting a different type from the `Group` dropdown.
-
+:::tip
+You can change the type of an existing group simply by right-clicking on the group node and selecting a different type from the `Group` dropdown.
+:::
 
 ### Open a node group or the default editor for an operator
-{: .no_toc}
 
 * Double-click on the target node while the workflow is not running
 * If the workflow is running, hold the `Ctrl` key while double-clicking on the target node
 * Press `Ctrl`+`Enter` while the target node is selected
 
 ### Ungrouping a node group
-{: .no_toc}
 
 * Right-click on the group node and select the `Ungroup` option from the context menu
 * Press `Ctrl`+`Shift`+`G`
 
 ### Open context menu
-{: .no_toc}
 
 * Right-click any node, multi-node selection or empty space in the workflow panel
 * Press `Shift`+`F10`
 
-**ProTip:** Depending on what is currently selected, the context menu may show different available actions.
+:::tip
+Depending on what is currently selected, the context menu may show different available actions.
+:::

@@ -44,16 +44,14 @@ title: VideoWriter
     -   `Height` (*int*)
 -   `IsClosed` (*bool*)
 
----
-
-**Tip**: How to get real-time playback rate? Without a hardware trigger, the acquisition frame rate might be unstable. If the playback seems vastly different from real-time, one can place `TimeInterval` after `VideoWriter` to measure the real frame rate and then specify the corresponding frequency in the `FrameRate` property of `VideoWriter`.
+:::tip
+How to get real-time playback rate? Without a hardware trigger, the acquisition frame rate might be unstable. If the playback seems vastly different from real-time, one can place `TimeInterval` after `VideoWriter` to measure the real frame rate and then specify the corresponding frequency in the `FrameRate` property of `VideoWriter`.
 
 With a hardware trigger, one can set the `FrameRate` property of `VideoWriter` equal to the (known) trigger frequency.
+:::
 
----
-
-**Common errors**:
-
+:::caution
 `Runtime Error: A valid file path must be specified`
-Occurs when the `FileName` property is left empty or not specified properly
 
+Occurs when the `FileName` property is left empty or not specified properly.
+:::

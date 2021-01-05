@@ -11,6 +11,6 @@ title: "SubscribeWhen"
 
 **Output**: Same type as the first input sequence
 
----
-
+:::tip
 **Tip**: Use `SubscribeWhen` -> `Take` -> `Repeat` to subscribe to the first observable sequence and take the specified number of inputs multiple times.
+:::

@@ -24,6 +24,16 @@ function Home() {
               to={useBaseUrl('https://github.com/bonsai-rx/bonsai/releases/download/2.6/Bonsai-2.6.exe')}>
               Download Bonsai 2.6
             </Link>
+            &nbsp;
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('/docs/meta/writing_docs/')}>
+              How to Contribute
+            </Link>
+
           </div>
         </div>
       </header>

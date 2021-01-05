@@ -63,15 +63,16 @@ title: PylonCapture
     -   `PaddingY` (*int*)
     -   `PayloadTypeValue` (*Basler.Pylon.PayloadType*)
 
----
+:::tip
+Write video to file using `VideoWriter`
+:::
 
-**Tip**: Write video to file using `VideoWriter`
+:::tip
+To visualise the video during acquisition, install the bonsai Vision Design Library and open `Bonsai.Vision.Design.IpIImageVisualizer`from the `Image` output node of the respective image capture node
+:::
 
-**Tip**: To visualise the video during acquisition, install the bonsai Vision Design Library and open `Bonsai.Vision.Design.IpIImageVisualizer`from the `Image` output node of the respective image capture node
-
----
-
-**Common errors**:
-
+:::caution
 `Runtime error: Unable to acquire camera frame`
+
 One possible reason is that the camera is currently open in pylonViewer.
+:::
