@@ -104,6 +104,20 @@ module.exports = {
       ],
       copyright: `Built with Docusaurus (${new Date().getFullYear()})`,
     },
+
+  // algolia search
+  algolia: {
+    apiKey: '1d5169d357726e74810feff638fc4978',
+    indexName: 'bonsai-rx',
+
+    // // Optional: see doc section bellow
+    // contextualSearch: true,
+
+    // // Optional: Algolia search parameters
+    // searchParameters: {},
+
+    //... other Algolia params
+    },
   },
   presets: [
     [
