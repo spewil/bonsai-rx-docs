@@ -11,14 +11,19 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout title={`bonsai docs`}>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero-dark', styles.heroBanner)}>
         <div className="container">
+	  <img
+	    className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
+	    src={'./img/logo2.svg'}
+	    alt="bonsai-rx Logo"
+	  />
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--outline button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('https://github.com/bonsai-rx/bonsai/releases/download/2.6/Bonsai-2.6.exe')}>
@@ -27,7 +32,7 @@ function Home() {
             &nbsp;
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--outline button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('/docs/meta/writing_docs/')}>

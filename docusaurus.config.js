@@ -13,7 +13,7 @@ module.exports = {
       title: 'bonsai-rx docs',
       logo: {
         alt: 'bonsai-rx Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.svg', // Changing this affects the tiny logo at the top too
       },
       items: [
         {

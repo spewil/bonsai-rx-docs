@@ -18,6 +18,11 @@
   }
 }
 
+.heroBannerLogo {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -34,4 +39,9 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.blockImage {
+  max-width: 80px;
+  margin-bottom: 20px;
 }
