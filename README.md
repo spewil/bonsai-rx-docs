@@ -2,7 +2,7 @@
 
 # bonsai-rx-docs
 
-(Homepage)[https://www.spewil.com/bonsai-rx-docs/]
+[Homepage](https://www.spewil.com/bonsai-rx-docs/)
 
 **unofficial documentation for [bonsai-rx](https://github.com/bonsai-rx/bonsai)**
 
