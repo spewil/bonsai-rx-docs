@@ -48,7 +48,7 @@ We can see from the workflow diagram above that the `Sample` operator subscribes
 
 The diagram makes clear the behaviour of `Sample`: it sends out the latest image that was received from `Grayscale` whenever there was a new key press. Marble diagrams are a useful tool to convey graphically the intuition of what a reactive operator is doing and will be used extensively throughout these pages.
 
-## Hot versus cold observable sequences {#temperature}
+## Hot versus cold observable sequences
 
 Some of the most subtle, but very important, aspects of the behaviour of observable sequences are the effects of subscription. When an image processing operator subscribes to a sequence of frames from a camera, that camera is turned on and acquisition is started. When the same operator subscribes to a sequence of frames from a video file, that file is opened and frames begin to be decoded into memory. These and other subscription side effects are necessary in order to generate the data items emitted from a sequence.
 
