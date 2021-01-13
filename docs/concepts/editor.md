@@ -133,6 +133,19 @@ Below is a summary of the most used commands and shortcuts in the workflow edito
 * Right-click the source node, select the `Remove Connection` option and left-click on the target node
 * While holding the `Shift` key, drag the source node and drop it on the target node
 
+### Reorder connections or branches
+
+Reordering can only be done by moving a lower connection up, not the converse. To reorder two connections to one 
+operator:
+
+* Right click on the lower of the two source nodes, select the `Reorder connection` option and left-click on the 
+destination source node.
+* Hold the `Alt` key and drag the lower source node to the upper source node
+
+Entire branches of the workflow can be reoredered the same way:
+
+* Hold the `Alt` key and drag the last node of a branch to the last node of another branch situated higher in the workflow. 
+
 ### Selecting multiple nodes
 
 * Click an empty space in the workflow panel and drag a box around the nodes to be selected
