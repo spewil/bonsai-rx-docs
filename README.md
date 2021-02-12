@@ -61,11 +61,12 @@ Once you have the site building locally and all looks good, you *can* manually d
 - figure out underscore-ignore for markdown files
 - add a check for `sidebar.js` based on `docs` files
 
-# Yarn Resources
+# Resources
+
+[Nice Docusaurus Tutorial](https://blog.logrocket.com/easy-documentation-with-docusaurus/)
 
 [Preparing the Docusaurus site.](https://docusaurus.io/docs/en/site-preparation#key-files)
 
 [Example Node `gitignore`.](https://github.com/github/gitignore/blob/master/Node.gitignore)
-
 
 [Using Yarn with version control.](https://classic.yarnpkg.com/en/docs/version-control)
