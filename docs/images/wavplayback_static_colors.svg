@@ -115,7 +115,7 @@
        x="205"
        y="48.75"
        id="115"
-       style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:currentColor;stroke:none"
+       style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#117_text_clipper)">
       <tspan
          id="119"
@@ -138,7 +138,7 @@
        x="105"
        y="48.75"
        id="123"
-       style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:currentColor;stroke:none"
+       style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#125_text_clipper)">
       <tspan
          id="127"
@@ -191,7 +191,7 @@
        x="5"
        y="48.75"
        id="136"
-       style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:currentColor;stroke:none"
+       style="font-size:13px;font-family:'Microsoft Sans Serif';opacity:1;fill:#000000;stroke:none"
        clip-path="url(#138_text_clipper)">
       <tspan
          id="140"
