@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{94:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Crowdsourced Documentation!","permalink":"/docs/blog/first_post"}]}')}}]);
