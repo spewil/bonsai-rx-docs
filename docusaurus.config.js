@@ -2,12 +2,12 @@ module.exports = {
   title: 'Bonsai-rx Documentation',
   tagline: 'Community-driven documentation for the Bonsai programming language.',
   url: 'https://spewil.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/bonsai-rx-docs/',
   onBrokenLinks: 'error',
   onBrokenMarkdownLinks: 'error',
   favicon: 'img/favicon.ico',
   organizationName: 'spewil', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'bonsai-rx-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'bonsai-rx docs',
