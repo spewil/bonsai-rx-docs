@@ -2,11 +2,11 @@
 
 # bonsai-rx-docs
 
-[Homepage](https://www.spewil.com/bonsai-rx-docs/)
+[homepage](https://www.spewil.com/bonsai-rx-docs/)
 
-**unofficial documentation for [bonsai-rx](https://github.com/bonsai-rx/bonsai)**
+**welcome to the unofficial documentation for [bonsai-rx](https://github.com/bonsai-rx/bonsai)**
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. Check the [documentation tutorial pages](https://v2.docusaurus.io/docs/docs-introduction) if you are a new developer.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern documentation-oriented static website generator. Check the [documentation tutorial pages](https://v2.docusaurus.io/docs/docs-introduction) if you are a new developer.
 
 If you'd like to contribute docs but aren't interested in developing the documentation site, just use the **edit** buttons and submit pull requests, or submit an issue to request a new page.
 
@@ -48,18 +48,9 @@ Once you have the site building locally and all looks good, you *can* manually d
 
 `Note`: this is not necessary with Travis CI as this automatically triggers deployment on `push` and PR `merge` to the `main` branch. All you need to do is test your build locally and then `commit` and `push` or submit a pull request for review and `merge`.
 
-# TODO
+## Search
 
-- move to bonsai repo
-- test versioning for old/new bonsai versions
-- add Install link which reflects newest version
-- get search working!
-- fix all the general config links
-- tweak styling everywhere
-- document style guide for writing new pages
-- edit `Fundamentals` for style
-- figure out underscore-ignore for markdown files
-- add a check for `sidebar.js` based on `docs` files
+If the site moves, the [algolia config file](https://github.com/algolia/docsearch-configs/blob/master/configs/bonsai-rx.json) will need to be updated via pull request. Make sure to tag `@shortcuts` in the PR.
 
 # Resources
 
