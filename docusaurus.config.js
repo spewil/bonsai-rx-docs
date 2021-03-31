@@ -112,7 +112,7 @@ module.exports = {
   // algolia search
   algolia: {
     apiKey: '1d5169d357726e74810feff638fc4978',
-    indexName: 'docs',
+    indexName: 'bonsai-rx',
 
     // // Optional: see doc section bellow
     // contextualSearch: true,
